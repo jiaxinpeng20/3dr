@@ -36,6 +36,10 @@ project(COLMAP LANGUAGES C CXX)
 set(COLMAP_VERSION "3.9")
 set(COLMAP_VERSION_NUMBER "3900")
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 ################################################################################
 # Include CMake dependencies
 ################################################################################

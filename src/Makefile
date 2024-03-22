@@ -1327,6 +1327,30 @@ exe/sfm.cc.s:
 	cd /home/jiaxin/xSfM && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/colmap.dir/build.make src/CMakeFiles/colmap.dir/exe/sfm.cc.s
 .PHONY : exe/sfm.cc.s
 
+feature/UMatching.o: feature/UMatching.cpp.o
+.PHONY : feature/UMatching.o
+
+# target to build an object file
+feature/UMatching.cpp.o:
+	cd /home/jiaxin/xSfM && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/colmap.dir/build.make src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o
+.PHONY : feature/UMatching.cpp.o
+
+feature/UMatching.i: feature/UMatching.cpp.i
+.PHONY : feature/UMatching.i
+
+# target to preprocess a source file
+feature/UMatching.cpp.i:
+	cd /home/jiaxin/xSfM && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/colmap.dir/build.make src/CMakeFiles/colmap.dir/feature/UMatching.cpp.i
+.PHONY : feature/UMatching.cpp.i
+
+feature/UMatching.s: feature/UMatching.cpp.s
+.PHONY : feature/UMatching.s
+
+# target to generate assembly for a file
+feature/UMatching.cpp.s:
+	cd /home/jiaxin/xSfM && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/colmap.dir/build.make src/CMakeFiles/colmap.dir/feature/UMatching.cpp.s
+.PHONY : feature/UMatching.cpp.s
+
 feature/extraction.o: feature/extraction.cc.o
 .PHONY : feature/extraction.o
 
@@ -2348,6 +2372,9 @@ help:
 	@echo "... exe/sfm.o"
 	@echo "... exe/sfm.i"
 	@echo "... exe/sfm.s"
+	@echo "... feature/UMatching.o"
+	@echo "... feature/UMatching.i"
+	@echo "... feature/UMatching.s"
 	@echo "... feature/extraction.o"
 	@echo "... feature/extraction.i"
 	@echo "... feature/extraction.s"

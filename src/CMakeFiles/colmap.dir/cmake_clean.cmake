@@ -95,6 +95,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/colmap.dir/exe/feature.cc.o.d"
   "CMakeFiles/colmap.dir/exe/sfm.cc.o"
   "CMakeFiles/colmap.dir/exe/sfm.cc.o.d"
+  "CMakeFiles/colmap.dir/feature/UMatching.cpp.o"
+  "CMakeFiles/colmap.dir/feature/UMatching.cpp.o.d"
   "CMakeFiles/colmap.dir/feature/extraction.cc.o"
   "CMakeFiles/colmap.dir/feature/extraction.cc.o.d"
   "CMakeFiles/colmap.dir/feature/matching.cc.o"

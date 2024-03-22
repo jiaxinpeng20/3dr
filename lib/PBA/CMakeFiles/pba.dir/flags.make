@@ -6,5 +6,5 @@ CXX_DEFINES = -DOPENMP_ENABLED -DPBA_NO_GPU
 
 CXX_INCLUDES = -I/home/jiaxin/xSfM/lib -I/home/jiaxin/xSfM/src -I/usr/include/eigen3 -I/usr/include/opencv4 -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
-CXX_FLAGS =  -Wno-maybe-uninitialized -fopenmp -w -Wno-narrowing -O3 -DNDEBUG -fPIC
+CXX_FLAGS =  -Wno-maybe-uninitialized -fopenmp -w -Wno-narrowing -O3 -DNDEBUG -fPIC -std=c++17
 

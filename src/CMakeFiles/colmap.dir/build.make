@@ -475,10 +475,24 @@ src/CMakeFiles/colmap.dir/base/warp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/colmap.dir/base/warp.cc.s"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jiaxin/xSfM/src/base/warp.cc -o CMakeFiles/colmap.dir/base/warp.cc.s
 
+src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o: src/CMakeFiles/colmap.dir/flags.make
+src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o: src/feature/UMatching.cpp
+src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o"
+	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o -MF CMakeFiles/colmap.dir/feature/UMatching.cpp.o.d -o CMakeFiles/colmap.dir/feature/UMatching.cpp.o -c /home/jiaxin/xSfM/src/feature/UMatching.cpp
+
+src/CMakeFiles/colmap.dir/feature/UMatching.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/colmap.dir/feature/UMatching.cpp.i"
+	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jiaxin/xSfM/src/feature/UMatching.cpp > CMakeFiles/colmap.dir/feature/UMatching.cpp.i
+
+src/CMakeFiles/colmap.dir/feature/UMatching.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/colmap.dir/feature/UMatching.cpp.s"
+	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jiaxin/xSfM/src/feature/UMatching.cpp -o CMakeFiles/colmap.dir/feature/UMatching.cpp.s
+
 src/CMakeFiles/colmap.dir/feature/extraction.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/feature/extraction.cc.o: src/feature/extraction.cc
 src/CMakeFiles/colmap.dir/feature/extraction.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/colmap.dir/feature/extraction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/colmap.dir/feature/extraction.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/feature/extraction.cc.o -MF CMakeFiles/colmap.dir/feature/extraction.cc.o.d -o CMakeFiles/colmap.dir/feature/extraction.cc.o -c /home/jiaxin/xSfM/src/feature/extraction.cc
 
 src/CMakeFiles/colmap.dir/feature/extraction.cc.i: cmake_force
@@ -492,7 +506,7 @@ src/CMakeFiles/colmap.dir/feature/extraction.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/feature/matching.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/feature/matching.cc.o: src/feature/matching.cc
 src/CMakeFiles/colmap.dir/feature/matching.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/colmap.dir/feature/matching.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/colmap.dir/feature/matching.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/feature/matching.cc.o -MF CMakeFiles/colmap.dir/feature/matching.cc.o.d -o CMakeFiles/colmap.dir/feature/matching.cc.o -c /home/jiaxin/xSfM/src/feature/matching.cc
 
 src/CMakeFiles/colmap.dir/feature/matching.cc.i: cmake_force
@@ -506,7 +520,7 @@ src/CMakeFiles/colmap.dir/feature/matching.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/feature/sift.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/feature/sift.cc.o: src/feature/sift.cc
 src/CMakeFiles/colmap.dir/feature/sift.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/colmap.dir/feature/sift.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/colmap.dir/feature/sift.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/feature/sift.cc.o -MF CMakeFiles/colmap.dir/feature/sift.cc.o.d -o CMakeFiles/colmap.dir/feature/sift.cc.o -c /home/jiaxin/xSfM/src/feature/sift.cc
 
 src/CMakeFiles/colmap.dir/feature/sift.cc.i: cmake_force
@@ -520,7 +534,7 @@ src/CMakeFiles/colmap.dir/feature/sift.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/feature/types.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/feature/types.cc.o: src/feature/types.cc
 src/CMakeFiles/colmap.dir/feature/types.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/colmap.dir/feature/types.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/colmap.dir/feature/types.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/feature/types.cc.o -MF CMakeFiles/colmap.dir/feature/types.cc.o.d -o CMakeFiles/colmap.dir/feature/types.cc.o -c /home/jiaxin/xSfM/src/feature/types.cc
 
 src/CMakeFiles/colmap.dir/feature/types.cc.i: cmake_force
@@ -534,7 +548,7 @@ src/CMakeFiles/colmap.dir/feature/types.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/feature/utils.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/feature/utils.cc.o: src/feature/utils.cc
 src/CMakeFiles/colmap.dir/feature/utils.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/colmap.dir/feature/utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/colmap.dir/feature/utils.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/feature/utils.cc.o -MF CMakeFiles/colmap.dir/feature/utils.cc.o.d -o CMakeFiles/colmap.dir/feature/utils.cc.o -c /home/jiaxin/xSfM/src/feature/utils.cc
 
 src/CMakeFiles/colmap.dir/feature/utils.cc.i: cmake_force
@@ -548,7 +562,7 @@ src/CMakeFiles/colmap.dir/feature/utils.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o: src/controllers/automatic_reconstruction.cc
 src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o -MF CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o.d -o CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.o -c /home/jiaxin/xSfM/src/controllers/automatic_reconstruction.cc
 
 src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.i: cmake_force
@@ -562,7 +576,7 @@ src/CMakeFiles/colmap.dir/controllers/automatic_reconstruction.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o: src/controllers/bundle_adjustment.cc
 src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o -MF CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o.d -o CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.o -c /home/jiaxin/xSfM/src/controllers/bundle_adjustment.cc
 
 src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.i: cmake_force
@@ -576,7 +590,7 @@ src/CMakeFiles/colmap.dir/controllers/bundle_adjustment.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o: src/controllers/hierarchical_mapper.cc
 src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o -MF CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o.d -o CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.o -c /home/jiaxin/xSfM/src/controllers/hierarchical_mapper.cc
 
 src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.i: cmake_force
@@ -590,7 +604,7 @@ src/CMakeFiles/colmap.dir/controllers/hierarchical_mapper.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o: src/controllers/incremental_mapper.cc
 src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o -MF CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o.d -o CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.o -c /home/jiaxin/xSfM/src/controllers/incremental_mapper.cc
 
 src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.i: cmake_force
@@ -604,7 +618,7 @@ src/CMakeFiles/colmap.dir/controllers/incremental_mapper.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o: src/estimators/absolute_pose.cc
 src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o -MF CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o.d -o CMakeFiles/colmap.dir/estimators/absolute_pose.cc.o -c /home/jiaxin/xSfM/src/estimators/absolute_pose.cc
 
 src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.i: cmake_force
@@ -618,7 +632,7 @@ src/CMakeFiles/colmap.dir/estimators/absolute_pose.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.o: src/estimators/affine_transform.cc
 src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.o -MF CMakeFiles/colmap.dir/estimators/affine_transform.cc.o.d -o CMakeFiles/colmap.dir/estimators/affine_transform.cc.o -c /home/jiaxin/xSfM/src/estimators/affine_transform.cc
 
 src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.i: cmake_force
@@ -632,7 +646,7 @@ src/CMakeFiles/colmap.dir/estimators/affine_transform.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o: src/estimators/coordinate_frame.cc
 src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o -MF CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o.d -o CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.o -c /home/jiaxin/xSfM/src/estimators/coordinate_frame.cc
 
 src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.i: cmake_force
@@ -646,7 +660,7 @@ src/CMakeFiles/colmap.dir/estimators/coordinate_frame.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o: src/estimators/essential_matrix.cc
 src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o -MF CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o.d -o CMakeFiles/colmap.dir/estimators/essential_matrix.cc.o -c /home/jiaxin/xSfM/src/estimators/essential_matrix.cc
 
 src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.i: cmake_force
@@ -660,7 +674,7 @@ src/CMakeFiles/colmap.dir/estimators/essential_matrix.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o: src/estimators/fundamental_matrix.cc
 src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o -MF CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o.d -o CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.o -c /home/jiaxin/xSfM/src/estimators/fundamental_matrix.cc
 
 src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.i: cmake_force
@@ -674,7 +688,7 @@ src/CMakeFiles/colmap.dir/estimators/fundamental_matrix.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o: src/estimators/generalized_absolute_pose.cc
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o -MF CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o.d -o CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.o -c /home/jiaxin/xSfM/src/estimators/generalized_absolute_pose.cc
 
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.i: cmake_force
@@ -688,7 +702,7 @@ src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o: src/estimators/generalized_absolute_pose_coeffs.cc
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o -MF CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o.d -o CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.o -c /home/jiaxin/xSfM/src/estimators/generalized_absolute_pose_coeffs.cc
 
 src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.i: cmake_force
@@ -702,7 +716,7 @@ src/CMakeFiles/colmap.dir/estimators/generalized_absolute_pose_coeffs.cc.s: cmak
 src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o: src/estimators/generalized_relative_pose.cc
 src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o -MF CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o.d -o CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.o -c /home/jiaxin/xSfM/src/estimators/generalized_relative_pose.cc
 
 src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.i: cmake_force
@@ -716,7 +730,7 @@ src/CMakeFiles/colmap.dir/estimators/generalized_relative_pose.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o: src/estimators/homography_matrix.cc
 src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o -MF CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o.d -o CMakeFiles/colmap.dir/estimators/homography_matrix.cc.o -c /home/jiaxin/xSfM/src/estimators/homography_matrix.cc
 
 src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.i: cmake_force
@@ -730,7 +744,7 @@ src/CMakeFiles/colmap.dir/estimators/homography_matrix.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/pose.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/pose.cc.o: src/estimators/pose.cc
 src/CMakeFiles/colmap.dir/estimators/pose.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/CMakeFiles/colmap.dir/estimators/pose.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/CMakeFiles/colmap.dir/estimators/pose.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/pose.cc.o -MF CMakeFiles/colmap.dir/estimators/pose.cc.o.d -o CMakeFiles/colmap.dir/estimators/pose.cc.o -c /home/jiaxin/xSfM/src/estimators/pose.cc
 
 src/CMakeFiles/colmap.dir/estimators/pose.cc.i: cmake_force
@@ -744,7 +758,7 @@ src/CMakeFiles/colmap.dir/estimators/pose.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/triangulation.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/triangulation.cc.o: src/estimators/triangulation.cc
 src/CMakeFiles/colmap.dir/estimators/triangulation.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/CMakeFiles/colmap.dir/estimators/triangulation.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/CMakeFiles/colmap.dir/estimators/triangulation.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/triangulation.cc.o -MF CMakeFiles/colmap.dir/estimators/triangulation.cc.o.d -o CMakeFiles/colmap.dir/estimators/triangulation.cc.o -c /home/jiaxin/xSfM/src/estimators/triangulation.cc
 
 src/CMakeFiles/colmap.dir/estimators/triangulation.cc.i: cmake_force
@@ -758,7 +772,7 @@ src/CMakeFiles/colmap.dir/estimators/triangulation.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o: src/estimators/two_view_geometry.cc
 src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o -MF CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o.d -o CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.o -c /home/jiaxin/xSfM/src/estimators/two_view_geometry.cc
 
 src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.i: cmake_force
@@ -772,7 +786,7 @@ src/CMakeFiles/colmap.dir/estimators/two_view_geometry.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/estimators/utils.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/estimators/utils.cc.o: src/estimators/utils.cc
 src/CMakeFiles/colmap.dir/estimators/utils.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/colmap.dir/estimators/utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/CMakeFiles/colmap.dir/estimators/utils.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/estimators/utils.cc.o -MF CMakeFiles/colmap.dir/estimators/utils.cc.o.d -o CMakeFiles/colmap.dir/estimators/utils.cc.o -c /home/jiaxin/xSfM/src/estimators/utils.cc
 
 src/CMakeFiles/colmap.dir/estimators/utils.cc.i: cmake_force
@@ -786,7 +800,7 @@ src/CMakeFiles/colmap.dir/estimators/utils.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/exe/feature.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/exe/feature.cc.o: src/exe/feature.cc
 src/CMakeFiles/colmap.dir/exe/feature.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/CMakeFiles/colmap.dir/exe/feature.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/CMakeFiles/colmap.dir/exe/feature.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/exe/feature.cc.o -MF CMakeFiles/colmap.dir/exe/feature.cc.o.d -o CMakeFiles/colmap.dir/exe/feature.cc.o -c /home/jiaxin/xSfM/src/exe/feature.cc
 
 src/CMakeFiles/colmap.dir/exe/feature.cc.i: cmake_force
@@ -800,7 +814,7 @@ src/CMakeFiles/colmap.dir/exe/feature.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/exe/sfm.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/exe/sfm.cc.o: src/exe/sfm.cc
 src/CMakeFiles/colmap.dir/exe/sfm.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/CMakeFiles/colmap.dir/exe/sfm.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/CMakeFiles/colmap.dir/exe/sfm.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/exe/sfm.cc.o -MF CMakeFiles/colmap.dir/exe/sfm.cc.o.d -o CMakeFiles/colmap.dir/exe/sfm.cc.o -c /home/jiaxin/xSfM/src/exe/sfm.cc
 
 src/CMakeFiles/colmap.dir/exe/sfm.cc.i: cmake_force
@@ -814,7 +828,7 @@ src/CMakeFiles/colmap.dir/exe/sfm.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o: src/mvs/consistency_graph.cc
 src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o -MF CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o.d -o CMakeFiles/colmap.dir/mvs/consistency_graph.cc.o -c /home/jiaxin/xSfM/src/mvs/consistency_graph.cc
 
 src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.i: cmake_force
@@ -828,7 +842,7 @@ src/CMakeFiles/colmap.dir/mvs/consistency_graph.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/depth_map.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/depth_map.cc.o: src/mvs/depth_map.cc
 src/CMakeFiles/colmap.dir/mvs/depth_map.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/CMakeFiles/colmap.dir/mvs/depth_map.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/CMakeFiles/colmap.dir/mvs/depth_map.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/depth_map.cc.o -MF CMakeFiles/colmap.dir/mvs/depth_map.cc.o.d -o CMakeFiles/colmap.dir/mvs/depth_map.cc.o -c /home/jiaxin/xSfM/src/mvs/depth_map.cc
 
 src/CMakeFiles/colmap.dir/mvs/depth_map.cc.i: cmake_force
@@ -842,7 +856,7 @@ src/CMakeFiles/colmap.dir/mvs/depth_map.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/fusion.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/fusion.cc.o: src/mvs/fusion.cc
 src/CMakeFiles/colmap.dir/mvs/fusion.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/CMakeFiles/colmap.dir/mvs/fusion.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/CMakeFiles/colmap.dir/mvs/fusion.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/fusion.cc.o -MF CMakeFiles/colmap.dir/mvs/fusion.cc.o.d -o CMakeFiles/colmap.dir/mvs/fusion.cc.o -c /home/jiaxin/xSfM/src/mvs/fusion.cc
 
 src/CMakeFiles/colmap.dir/mvs/fusion.cc.i: cmake_force
@@ -856,7 +870,7 @@ src/CMakeFiles/colmap.dir/mvs/fusion.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/image.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/image.cc.o: src/mvs/image.cc
 src/CMakeFiles/colmap.dir/mvs/image.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/CMakeFiles/colmap.dir/mvs/image.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/CMakeFiles/colmap.dir/mvs/image.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/image.cc.o -MF CMakeFiles/colmap.dir/mvs/image.cc.o.d -o CMakeFiles/colmap.dir/mvs/image.cc.o -c /home/jiaxin/xSfM/src/mvs/image.cc
 
 src/CMakeFiles/colmap.dir/mvs/image.cc.i: cmake_force
@@ -870,7 +884,7 @@ src/CMakeFiles/colmap.dir/mvs/image.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/meshing.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/meshing.cc.o: src/mvs/meshing.cc
 src/CMakeFiles/colmap.dir/mvs/meshing.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/CMakeFiles/colmap.dir/mvs/meshing.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/CMakeFiles/colmap.dir/mvs/meshing.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/meshing.cc.o -MF CMakeFiles/colmap.dir/mvs/meshing.cc.o.d -o CMakeFiles/colmap.dir/mvs/meshing.cc.o -c /home/jiaxin/xSfM/src/mvs/meshing.cc
 
 src/CMakeFiles/colmap.dir/mvs/meshing.cc.i: cmake_force
@@ -884,7 +898,7 @@ src/CMakeFiles/colmap.dir/mvs/meshing.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/model.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/model.cc.o: src/mvs/model.cc
 src/CMakeFiles/colmap.dir/mvs/model.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/CMakeFiles/colmap.dir/mvs/model.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/CMakeFiles/colmap.dir/mvs/model.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/model.cc.o -MF CMakeFiles/colmap.dir/mvs/model.cc.o.d -o CMakeFiles/colmap.dir/mvs/model.cc.o -c /home/jiaxin/xSfM/src/mvs/model.cc
 
 src/CMakeFiles/colmap.dir/mvs/model.cc.i: cmake_force
@@ -898,7 +912,7 @@ src/CMakeFiles/colmap.dir/mvs/model.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/normal_map.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/normal_map.cc.o: src/mvs/normal_map.cc
 src/CMakeFiles/colmap.dir/mvs/normal_map.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/CMakeFiles/colmap.dir/mvs/normal_map.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/CMakeFiles/colmap.dir/mvs/normal_map.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/normal_map.cc.o -MF CMakeFiles/colmap.dir/mvs/normal_map.cc.o.d -o CMakeFiles/colmap.dir/mvs/normal_map.cc.o -c /home/jiaxin/xSfM/src/mvs/normal_map.cc
 
 src/CMakeFiles/colmap.dir/mvs/normal_map.cc.i: cmake_force
@@ -912,7 +926,7 @@ src/CMakeFiles/colmap.dir/mvs/normal_map.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/mvs/workspace.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/mvs/workspace.cc.o: src/mvs/workspace.cc
 src/CMakeFiles/colmap.dir/mvs/workspace.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/CMakeFiles/colmap.dir/mvs/workspace.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/CMakeFiles/colmap.dir/mvs/workspace.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/mvs/workspace.cc.o -MF CMakeFiles/colmap.dir/mvs/workspace.cc.o.d -o CMakeFiles/colmap.dir/mvs/workspace.cc.o -c /home/jiaxin/xSfM/src/mvs/workspace.cc
 
 src/CMakeFiles/colmap.dir/mvs/workspace.cc.i: cmake_force
@@ -926,7 +940,7 @@ src/CMakeFiles/colmap.dir/mvs/workspace.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o: src/optim/bundle_adjustment.cc
 src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o -MF CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o.d -o CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.o -c /home/jiaxin/xSfM/src/optim/bundle_adjustment.cc
 
 src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.i: cmake_force
@@ -940,7 +954,7 @@ src/CMakeFiles/colmap.dir/optim/bundle_adjustment.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.o: src/optim/combination_sampler.cc
 src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.o -MF CMakeFiles/colmap.dir/optim/combination_sampler.cc.o.d -o CMakeFiles/colmap.dir/optim/combination_sampler.cc.o -c /home/jiaxin/xSfM/src/optim/combination_sampler.cc
 
 src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.i: cmake_force
@@ -954,7 +968,7 @@ src/CMakeFiles/colmap.dir/optim/combination_sampler.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o: src/optim/least_absolute_deviations.cc
 src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o -MF CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o.d -o CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.o -c /home/jiaxin/xSfM/src/optim/least_absolute_deviations.cc
 
 src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.i: cmake_force
@@ -968,7 +982,7 @@ src/CMakeFiles/colmap.dir/optim/least_absolute_deviations.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o: src/optim/progressive_sampler.cc
 src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o -MF CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o.d -o CMakeFiles/colmap.dir/optim/progressive_sampler.cc.o -c /home/jiaxin/xSfM/src/optim/progressive_sampler.cc
 
 src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.i: cmake_force
@@ -982,7 +996,7 @@ src/CMakeFiles/colmap.dir/optim/progressive_sampler.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/optim/random_sampler.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/optim/random_sampler.cc.o: src/optim/random_sampler.cc
 src/CMakeFiles/colmap.dir/optim/random_sampler.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/CMakeFiles/colmap.dir/optim/random_sampler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/CMakeFiles/colmap.dir/optim/random_sampler.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/optim/random_sampler.cc.o -MF CMakeFiles/colmap.dir/optim/random_sampler.cc.o.d -o CMakeFiles/colmap.dir/optim/random_sampler.cc.o -c /home/jiaxin/xSfM/src/optim/random_sampler.cc
 
 src/CMakeFiles/colmap.dir/optim/random_sampler.cc.i: cmake_force
@@ -996,7 +1010,7 @@ src/CMakeFiles/colmap.dir/optim/random_sampler.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/optim/sprt.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/optim/sprt.cc.o: src/optim/sprt.cc
 src/CMakeFiles/colmap.dir/optim/sprt.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/CMakeFiles/colmap.dir/optim/sprt.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/CMakeFiles/colmap.dir/optim/sprt.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/optim/sprt.cc.o -MF CMakeFiles/colmap.dir/optim/sprt.cc.o.d -o CMakeFiles/colmap.dir/optim/sprt.cc.o -c /home/jiaxin/xSfM/src/optim/sprt.cc
 
 src/CMakeFiles/colmap.dir/optim/sprt.cc.i: cmake_force
@@ -1010,7 +1024,7 @@ src/CMakeFiles/colmap.dir/optim/sprt.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/optim/support_measurement.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/optim/support_measurement.cc.o: src/optim/support_measurement.cc
 src/CMakeFiles/colmap.dir/optim/support_measurement.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/CMakeFiles/colmap.dir/optim/support_measurement.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/CMakeFiles/colmap.dir/optim/support_measurement.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/optim/support_measurement.cc.o -MF CMakeFiles/colmap.dir/optim/support_measurement.cc.o.d -o CMakeFiles/colmap.dir/optim/support_measurement.cc.o -c /home/jiaxin/xSfM/src/optim/support_measurement.cc
 
 src/CMakeFiles/colmap.dir/optim/support_measurement.cc.i: cmake_force
@@ -1024,7 +1038,7 @@ src/CMakeFiles/colmap.dir/optim/support_measurement.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/retrieval/geometry.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/retrieval/geometry.cc.o: src/retrieval/geometry.cc
 src/CMakeFiles/colmap.dir/retrieval/geometry.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/CMakeFiles/colmap.dir/retrieval/geometry.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/CMakeFiles/colmap.dir/retrieval/geometry.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/retrieval/geometry.cc.o -MF CMakeFiles/colmap.dir/retrieval/geometry.cc.o.d -o CMakeFiles/colmap.dir/retrieval/geometry.cc.o -c /home/jiaxin/xSfM/src/retrieval/geometry.cc
 
 src/CMakeFiles/colmap.dir/retrieval/geometry.cc.i: cmake_force
@@ -1038,7 +1052,7 @@ src/CMakeFiles/colmap.dir/retrieval/geometry.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o: src/retrieval/vote_and_verify.cc
 src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o -MF CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o.d -o CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.o -c /home/jiaxin/xSfM/src/retrieval/vote_and_verify.cc
 
 src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.i: cmake_force
@@ -1052,7 +1066,7 @@ src/CMakeFiles/colmap.dir/retrieval/vote_and_verify.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o: src/sfm/incremental_mapper.cc
 src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o -MF CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o.d -o CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.o -c /home/jiaxin/xSfM/src/sfm/incremental_mapper.cc
 
 src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.i: cmake_force
@@ -1066,7 +1080,7 @@ src/CMakeFiles/colmap.dir/sfm/incremental_mapper.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o: src/sfm/incremental_triangulator.cc
 src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o -MF CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o.d -o CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.o -c /home/jiaxin/xSfM/src/sfm/incremental_triangulator.cc
 
 src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.i: cmake_force
@@ -1080,7 +1094,7 @@ src/CMakeFiles/colmap.dir/sfm/incremental_triangulator.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/bitmap.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/bitmap.cc.o: src/util/bitmap.cc
 src/CMakeFiles/colmap.dir/util/bitmap.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/CMakeFiles/colmap.dir/util/bitmap.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/CMakeFiles/colmap.dir/util/bitmap.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/bitmap.cc.o -MF CMakeFiles/colmap.dir/util/bitmap.cc.o.d -o CMakeFiles/colmap.dir/util/bitmap.cc.o -c /home/jiaxin/xSfM/src/util/bitmap.cc
 
 src/CMakeFiles/colmap.dir/util/bitmap.cc.i: cmake_force
@@ -1094,7 +1108,7 @@ src/CMakeFiles/colmap.dir/util/bitmap.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/camera_specs.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/camera_specs.cc.o: src/util/camera_specs.cc
 src/CMakeFiles/colmap.dir/util/camera_specs.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/CMakeFiles/colmap.dir/util/camera_specs.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/CMakeFiles/colmap.dir/util/camera_specs.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/camera_specs.cc.o -MF CMakeFiles/colmap.dir/util/camera_specs.cc.o.d -o CMakeFiles/colmap.dir/util/camera_specs.cc.o -c /home/jiaxin/xSfM/src/util/camera_specs.cc
 
 src/CMakeFiles/colmap.dir/util/camera_specs.cc.i: cmake_force
@@ -1108,7 +1122,7 @@ src/CMakeFiles/colmap.dir/util/camera_specs.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/logging.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/logging.cc.o: src/util/logging.cc
 src/CMakeFiles/colmap.dir/util/logging.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/CMakeFiles/colmap.dir/util/logging.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/CMakeFiles/colmap.dir/util/logging.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/logging.cc.o -MF CMakeFiles/colmap.dir/util/logging.cc.o.d -o CMakeFiles/colmap.dir/util/logging.cc.o -c /home/jiaxin/xSfM/src/util/logging.cc
 
 src/CMakeFiles/colmap.dir/util/logging.cc.i: cmake_force
@@ -1122,7 +1136,7 @@ src/CMakeFiles/colmap.dir/util/logging.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/math.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/math.cc.o: src/util/math.cc
 src/CMakeFiles/colmap.dir/util/math.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/CMakeFiles/colmap.dir/util/math.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/CMakeFiles/colmap.dir/util/math.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/math.cc.o -MF CMakeFiles/colmap.dir/util/math.cc.o.d -o CMakeFiles/colmap.dir/util/math.cc.o -c /home/jiaxin/xSfM/src/util/math.cc
 
 src/CMakeFiles/colmap.dir/util/math.cc.i: cmake_force
@@ -1136,7 +1150,7 @@ src/CMakeFiles/colmap.dir/util/math.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/misc.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/misc.cc.o: src/util/misc.cc
 src/CMakeFiles/colmap.dir/util/misc.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/CMakeFiles/colmap.dir/util/misc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/CMakeFiles/colmap.dir/util/misc.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/misc.cc.o -MF CMakeFiles/colmap.dir/util/misc.cc.o.d -o CMakeFiles/colmap.dir/util/misc.cc.o -c /home/jiaxin/xSfM/src/util/misc.cc
 
 src/CMakeFiles/colmap.dir/util/misc.cc.i: cmake_force
@@ -1150,7 +1164,7 @@ src/CMakeFiles/colmap.dir/util/misc.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/option_manager.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/option_manager.cc.o: src/util/option_manager.cc
 src/CMakeFiles/colmap.dir/util/option_manager.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/CMakeFiles/colmap.dir/util/option_manager.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object src/CMakeFiles/colmap.dir/util/option_manager.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/option_manager.cc.o -MF CMakeFiles/colmap.dir/util/option_manager.cc.o.d -o CMakeFiles/colmap.dir/util/option_manager.cc.o -c /home/jiaxin/xSfM/src/util/option_manager.cc
 
 src/CMakeFiles/colmap.dir/util/option_manager.cc.i: cmake_force
@@ -1164,7 +1178,7 @@ src/CMakeFiles/colmap.dir/util/option_manager.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/ply.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/ply.cc.o: src/util/ply.cc
 src/CMakeFiles/colmap.dir/util/ply.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object src/CMakeFiles/colmap.dir/util/ply.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object src/CMakeFiles/colmap.dir/util/ply.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/ply.cc.o -MF CMakeFiles/colmap.dir/util/ply.cc.o.d -o CMakeFiles/colmap.dir/util/ply.cc.o -c /home/jiaxin/xSfM/src/util/ply.cc
 
 src/CMakeFiles/colmap.dir/util/ply.cc.i: cmake_force
@@ -1178,7 +1192,7 @@ src/CMakeFiles/colmap.dir/util/ply.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/random.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/random.cc.o: src/util/random.cc
 src/CMakeFiles/colmap.dir/util/random.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object src/CMakeFiles/colmap.dir/util/random.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object src/CMakeFiles/colmap.dir/util/random.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/random.cc.o -MF CMakeFiles/colmap.dir/util/random.cc.o.d -o CMakeFiles/colmap.dir/util/random.cc.o -c /home/jiaxin/xSfM/src/util/random.cc
 
 src/CMakeFiles/colmap.dir/util/random.cc.i: cmake_force
@@ -1192,7 +1206,7 @@ src/CMakeFiles/colmap.dir/util/random.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/string.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/string.cc.o: src/util/string.cc
 src/CMakeFiles/colmap.dir/util/string.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object src/CMakeFiles/colmap.dir/util/string.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object src/CMakeFiles/colmap.dir/util/string.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/string.cc.o -MF CMakeFiles/colmap.dir/util/string.cc.o.d -o CMakeFiles/colmap.dir/util/string.cc.o -c /home/jiaxin/xSfM/src/util/string.cc
 
 src/CMakeFiles/colmap.dir/util/string.cc.i: cmake_force
@@ -1206,7 +1220,7 @@ src/CMakeFiles/colmap.dir/util/string.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/threading.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/threading.cc.o: src/util/threading.cc
 src/CMakeFiles/colmap.dir/util/threading.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object src/CMakeFiles/colmap.dir/util/threading.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object src/CMakeFiles/colmap.dir/util/threading.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/threading.cc.o -MF CMakeFiles/colmap.dir/util/threading.cc.o.d -o CMakeFiles/colmap.dir/util/threading.cc.o -c /home/jiaxin/xSfM/src/util/threading.cc
 
 src/CMakeFiles/colmap.dir/util/threading.cc.i: cmake_force
@@ -1220,7 +1234,7 @@ src/CMakeFiles/colmap.dir/util/threading.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/timer.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/timer.cc.o: src/util/timer.cc
 src/CMakeFiles/colmap.dir/util/timer.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object src/CMakeFiles/colmap.dir/util/timer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object src/CMakeFiles/colmap.dir/util/timer.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/timer.cc.o -MF CMakeFiles/colmap.dir/util/timer.cc.o.d -o CMakeFiles/colmap.dir/util/timer.cc.o -c /home/jiaxin/xSfM/src/util/timer.cc
 
 src/CMakeFiles/colmap.dir/util/timer.cc.i: cmake_force
@@ -1234,7 +1248,7 @@ src/CMakeFiles/colmap.dir/util/timer.cc.s: cmake_force
 src/CMakeFiles/colmap.dir/util/version.cc.o: src/CMakeFiles/colmap.dir/flags.make
 src/CMakeFiles/colmap.dir/util/version.cc.o: src/util/version.cc
 src/CMakeFiles/colmap.dir/util/version.cc.o: src/CMakeFiles/colmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object src/CMakeFiles/colmap.dir/util/version.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object src/CMakeFiles/colmap.dir/util/version.cc.o"
 	cd /home/jiaxin/xSfM/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/colmap.dir/util/version.cc.o -MF CMakeFiles/colmap.dir/util/version.cc.o.d -o CMakeFiles/colmap.dir/util/version.cc.o -c /home/jiaxin/xSfM/src/util/version.cc
 
 src/CMakeFiles/colmap.dir/util/version.cc.i: cmake_force
@@ -1276,6 +1290,7 @@ colmap_OBJECTS = \
 "CMakeFiles/colmap.dir/base/undistortion.cc.o" \
 "CMakeFiles/colmap.dir/base/visibility_pyramid.cc.o" \
 "CMakeFiles/colmap.dir/base/warp.cc.o" \
+"CMakeFiles/colmap.dir/feature/UMatching.cpp.o" \
 "CMakeFiles/colmap.dir/feature/extraction.cc.o" \
 "CMakeFiles/colmap.dir/feature/matching.cc.o" \
 "CMakeFiles/colmap.dir/feature/sift.cc.o" \
@@ -1364,6 +1379,7 @@ src/libcolmap.a: src/CMakeFiles/colmap.dir/base/triangulation.cc.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/base/undistortion.cc.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/base/visibility_pyramid.cc.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/base/warp.cc.o
+src/libcolmap.a: src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/feature/extraction.cc.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/feature/matching.cc.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/feature/sift.cc.o
@@ -1421,7 +1437,7 @@ src/libcolmap.a: src/CMakeFiles/colmap.dir/util/timer.cc.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/util/version.cc.o
 src/libcolmap.a: src/CMakeFiles/colmap.dir/build.make
 src/libcolmap.a: src/CMakeFiles/colmap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX static library libcolmap.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Linking CXX static library libcolmap.a"
 	cd /home/jiaxin/xSfM/src && $(CMAKE_COMMAND) -P CMakeFiles/colmap.dir/cmake_clean_target.cmake
 	cd /home/jiaxin/xSfM/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/colmap.dir/link.txt --verbose=$(VERBOSE)
 

@@ -470,12 +470,12 @@ lib/PBA/CMakeFiles/pba.dir/clean:
 lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make lib/PoissonRecon/CMakeFiles/poisson_recon.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make lib/PoissonRecon/CMakeFiles/poisson_recon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=84,85 "Built target poisson_recon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=84,85,86 "Built target poisson_recon"
 .PHONY : lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
 
 # Build rule for subdir invocation for target.
 lib/PoissonRecon/CMakeFiles/poisson_recon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
 .PHONY : lib/PoissonRecon/CMakeFiles/poisson_recon.dir/rule
@@ -496,12 +496,12 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/clean:
 lib/VLFeat/CMakeFiles/vlfeat.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/VLFeat/CMakeFiles/vlfeat.dir/build.make lib/VLFeat/CMakeFiles/vlfeat.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/VLFeat/CMakeFiles/vlfeat.dir/build.make lib/VLFeat/CMakeFiles/vlfeat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=86,87,88,89,90,91,92,93,94,95,96,97 "Built target vlfeat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=87,88,89,90,91,92,93,94,95,96,97 "Built target vlfeat"
 .PHONY : lib/VLFeat/CMakeFiles/vlfeat.dir/all
 
 # Build rule for subdir invocation for target.
 lib/VLFeat/CMakeFiles/vlfeat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/VLFeat/CMakeFiles/vlfeat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
 .PHONY : lib/VLFeat/CMakeFiles/vlfeat.dir/rule

@@ -56,6 +56,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jiaxin/xSfM/src/estimators/utils.cc" "src/CMakeFiles/colmap.dir/estimators/utils.cc.o" "gcc" "src/CMakeFiles/colmap.dir/estimators/utils.cc.o.d"
   "/home/jiaxin/xSfM/src/exe/feature.cc" "src/CMakeFiles/colmap.dir/exe/feature.cc.o" "gcc" "src/CMakeFiles/colmap.dir/exe/feature.cc.o.d"
   "/home/jiaxin/xSfM/src/exe/sfm.cc" "src/CMakeFiles/colmap.dir/exe/sfm.cc.o" "gcc" "src/CMakeFiles/colmap.dir/exe/sfm.cc.o.d"
+  "/home/jiaxin/xSfM/src/feature/UMatching.cpp" "src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o" "gcc" "src/CMakeFiles/colmap.dir/feature/UMatching.cpp.o.d"
   "/home/jiaxin/xSfM/src/feature/extraction.cc" "src/CMakeFiles/colmap.dir/feature/extraction.cc.o" "gcc" "src/CMakeFiles/colmap.dir/feature/extraction.cc.o.d"
   "/home/jiaxin/xSfM/src/feature/matching.cc" "src/CMakeFiles/colmap.dir/feature/matching.cc.o" "gcc" "src/CMakeFiles/colmap.dir/feature/matching.cc.o.d"
   "/home/jiaxin/xSfM/src/feature/sift.cc" "src/CMakeFiles/colmap.dir/feature/sift.cc.o" "gcc" "src/CMakeFiles/colmap.dir/feature/sift.cc.o.d"

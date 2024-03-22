@@ -32,6 +32,7 @@
 set(FOLDER_NAME "feature")
 
 COLMAP_ADD_SOURCES(
+    UMatching.h UMatching.cpp
     extraction.h extraction.cc
     matching.h matching.cc
     sift.h sift.cc

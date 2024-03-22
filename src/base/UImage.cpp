@@ -1,4 +1,4 @@
-// Copyright (c) 2023, National University of Defense Technology.
+// Copyright (c) 2024, National University of Defense Technology.
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -30,14 +30,33 @@
 // Author: Jiaxin Peng (jiaxinpeng.nudt-at-gmail-dot-com)
 
 #include "UImage.h"
+#include <omp.h>
 
 namespace XSFM
 {
     namespace Algorithm
     {
-        UImage::UImage()
+        UImage::UImage(std::vector<std::string>& inImageFileList, int inNumOfThreads)
         {
-            
+            imageFileList = inImageFileList;
+            numOfImages = inImageFileList.size();
+
+            int maxThreads = std::thread::hardware_concurrency() + 1;
+            if(inNumOfThreads <= 0 || inNumOfThreads > maxThreads)
+            {
+                inNumOfThreads = maxThreads;
+            }
+
+            numOfThreads = inNumOfThreads;
+        }
+
+        UImage::UImage(std::vector<std::string>& inImageFileList)
+        {
+            imageFileList = inImageFileList;
+            numOfImages = inImageFileList.size();
+
+            int maxThreads = std::thread::hardware_concurrency();
+            numOfThreads = maxThreads;
         }
         
         UImage::~UImage()
@@ -45,28 +64,78 @@ namespace XSFM
             
         }
         
-        bool UImage::ReadImageFromPath(std::string ImagePath)
+        void UImage::ReadImageFromPath()
         {
-            ImageData = cv::imread(ImagePath);
-            
-            if(ImageData.data == NULL)
+            imageDataList.resize(numOfImages);//allocate memory spacess
+
+            #pragma omp parallel for num_threads(numOfThreads)
+            for(int i = 0; i < numOfImages; i++)
             {
-                std::cout<<"[xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx] Reading Images..."<<std::endl;
-                return false;
+                cv::Mat _imageData = cv::imread(imageFileList.at(i), cv::IMREAD_COLOR);
+                imageDataList.at(i) = _imageData;
+            }  
+
+            //Remove invalid image data
+            std::vector<std::string>::iterator iter1 = imageFileList.begin();
+            for(std::vector<cv::Mat>::iterator iter0 = imageDataList.begin() ;iter0 != imageDataList.end(); )
+            {
+                if(iter0->empty())
+                {
+                    iter0 = imageDataList.erase(iter0);
+                    iter1 = imageFileList.erase(iter1);
+                    numOfImages--;
+                }
+                else
+                {
+                    iter0++;
+                    iter1++;
+                }
             }
-            
             
         }
         
-        void UImage::GetImageFeatures()
+
+        void UImage::ComputeImageFeatures()
         {
-            /*cv::Mat ImageGrayData;
-            cv::cvtColor(ImageData, ImageGrayData, cv::COLOR_BGR2GRAY);
+            //#pragma omp parallel for num_threads(numOfThreads)
+            for(int i = 0; i < numOfImages; i++)//Make sure that openCV is already multi-threaded.
+            {
+                cv::Mat imageGrayData;
+                cv::cvtColor(imageDataList.at(i), imageGrayData, cv::COLOR_BGR2GRAY);
+
+                cv::Ptr<cv::SIFT> sift = cv::SIFT::create(numOfKeyPoints);
+                std::vector<cv::KeyPoint> keyPoints;
+                sift->detect(imageGrayData, keyPoints);
+                
+                cv::Mat logoImage;
+                cv::drawKeypoints(imageGrayData, keyPoints, logoImage);
+
+                //Compute descriptors for all features 
+                cv::Mat _cv_image_descriptors;
+                sift->compute(imageGrayData, keyPoints, _cv_image_descriptors);
+
+                Eigen::MatrixXd _eigen_image_descriptors;
+                cv::cv2eigen(_cv_image_descriptors, _eigen_image_descriptors);
+                descriptors.push_back(_eigen_image_descriptors);
+
+            }
             
-            cv::Ptr<cv::SIFT> Detector = cv::SIFT::create();
-            std::vector<cv::KeyPoint> KeyPoints;
-            cv::Mat Descriptors;*/
-            //for(int )
+            
+            
+
+
+            //cv::imwrite("TEST", logoImage);
+            //cv::waitKey(0);
+
+        }
+
+        std::vector<Eigen::MatrixXd> UImage::GetImageDescriptors()
+        {
+            return descriptors;
+        }
+
+        void UImage::GetImageExif()
+        {
             
         }
         

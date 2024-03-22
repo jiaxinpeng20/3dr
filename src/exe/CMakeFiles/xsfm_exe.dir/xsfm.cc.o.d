@@ -13,6 +13,7 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+ /usr/include/c++/11/pstl/pstl_config.h \
  /usr/include/c++/11/initializer_list \
  /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -49,6 +50,7 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_set.h \
  /usr/include/c++/11/bits/erase_if.h \
  /home/jiaxin/xSfM/src/base/database.h /usr/include/c++/11/mutex \
@@ -128,6 +130,7 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/11/string_view /usr/include/c++/11/bits/string_view.tcc \
  /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -170,6 +173,18 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/tr1/gamma.tcc \
+ /usr/include/c++/11/tr1/special_function_util.h \
+ /usr/include/c++/11/tr1/bessel_function.tcc \
+ /usr/include/c++/11/tr1/beta_function.tcc \
+ /usr/include/c++/11/tr1/ell_integral.tcc \
+ /usr/include/c++/11/tr1/exp_integral.tcc \
+ /usr/include/c++/11/tr1/hypergeometric.tcc \
+ /usr/include/c++/11/tr1/legendre_function.tcc \
+ /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/11/tr1/poly_hermite.tcc \
+ /usr/include/c++/11/tr1/poly_laguerre.tcc \
+ /usr/include/c++/11/tr1/riemann_zeta.tcc \
  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
@@ -197,7 +212,12 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/functional \
  /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/cstring \
+ /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/bits/algorithmfwd.h \
+ /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
@@ -210,11 +230,9 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11/pstl/execution_defs.h \
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
@@ -352,6 +370,7 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/eigen3/Eigen/Geometry /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/SVD /usr/include/eigen3/Eigen/QR \
  /usr/include/eigen3/Eigen/Cholesky /usr/include/eigen3/Eigen/Jacobi \
@@ -421,6 +440,7 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h \
+ /usr/include/c++/11/pstl/glue_numeric_defs.h \
  /home/jiaxin/xSfM/src/optim/random_sampler.h \
  /home/jiaxin/xSfM/src/optim/sampler.h \
  /home/jiaxin/xSfM/src/optim/support_measurement.h \
@@ -1006,8 +1026,6 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/boost/mpi/detail/computation_tree.hpp \
  /usr/include/boost/mpi/operations.hpp \
  /usr/include/boost/core/uncaught_exceptions.hpp \
- /usr/include/c++/11/cxxabi.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/boost/scoped_array.hpp \
  /usr/include/boost/smart_ptr/scoped_array.hpp \
  /usr/include/boost/mpi/collectives/all_to_all.hpp \
@@ -1159,7 +1177,8 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/boost/any.hpp /usr/include/boost/type_index.hpp \
  /usr/include/boost/type_index/stl_type_index.hpp \
  /usr/include/boost/type_index/type_index_facade.hpp \
- /usr/include/boost/core/demangle.hpp \
+ /usr/include/boost/core/demangle.hpp /usr/include/c++/11/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/boost/function/function1.hpp \
  /usr/include/boost/function/detail/maybe_include.hpp \
  /usr/include/boost/function/function_template.hpp \
@@ -1418,7 +1437,8 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/boost/program_options/detail/convert.hpp \
  /usr/include/boost/program_options/variables_map.hpp \
  /usr/include/boost/program_options/version.hpp \
- /home/jiaxin/xSfM/src/util/misc.h /home/jiaxin/xSfM/src/base/UImage.h \
+ /home/jiaxin/xSfM/src/util/misc.h /home/jiaxin/xSfM/src/exe/xsfm.h \
+ /home/jiaxin/xSfM/src/base/UImage.h \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
@@ -1524,4 +1544,164 @@ src/exe/CMakeFiles/xsfm_exe.dir/xsfm.cc.o: \
  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
- /usr/include/opencv4/opencv2/video/background_segm.hpp
+ /usr/include/opencv4/opencv2/video/background_segm.hpp \
+ /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
+ /usr/include/eigen3/Eigen/Sparse /usr/include/eigen3/Eigen/SparseCore \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+ /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+ /usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+ /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+ /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+ /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+ /usr/include/eigen3/Eigen/OrderingMethods \
+ /usr/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+ /usr/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
+ /usr/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+ /usr/include/eigen3/Eigen/SparseCholesky \
+ /usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+ /usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+ /usr/include/eigen3/Eigen/SparseLU \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
+ /usr/include/eigen3/Eigen/SparseQR \
+ /usr/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+ /usr/include/eigen3/Eigen/IterativeLinearSolvers \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+ /usr/include/opencv4/opencv2/core/eigen.hpp \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/Tensor \
+ /usr/include/eigen3/Eigen/Core \
+ /usr/include/eigen3/unsupported/Eigen/SpecialFunctions \
+ /usr/include/eigen3/Eigen/Core \
+ /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsBFloat16.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsHalf.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsBFloat16.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h \
+ /usr/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h \
+ /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+ /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h \
+ /usr/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h \
+ /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+ /home/jiaxin/xSfM/src/feature/UMatching.h

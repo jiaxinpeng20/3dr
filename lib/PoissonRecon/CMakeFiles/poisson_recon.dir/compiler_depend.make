@@ -35,6 +35,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/CmdLineParser.cpp.o: lib/PoissonRe
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -92,6 +93,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/Factor.cpp.o: lib/PoissonRecon/Fac
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/math.h \
@@ -145,6 +147,35 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/Factor.cpp.o: lib/PoissonRecon/Fac
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
   lib/PoissonRecon/Factor.h
 
 lib/PoissonRecon/CMakeFiles/poisson_recon.dir/Geometry.cpp.o: lib/PoissonRecon/Geometry.cpp \
@@ -163,6 +194,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/Geometry.cpp.o: lib/PoissonRecon/G
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/math.h \
@@ -216,7 +248,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/Geometry.cpp.o: lib/PoissonRecon/G
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
@@ -232,6 +264,20 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/Geometry.cpp.o: lib/PoissonRecon/G
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -277,6 +323,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/Geometry.cpp.o: lib/PoissonRecon/G
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   lib/PoissonRecon/Geometry.inl \
@@ -300,6 +347,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/MarchingCubes.cpp.o: lib/PoissonRe
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/ext/type_traits.h \
   /usr/include/math.h \
@@ -353,8 +401,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/MarchingCubes.cpp.o: lib/PoissonRe
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  lib/PoissonRecon/MarchingCubes.h \
-  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
@@ -370,6 +417,21 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/MarchingCubes.cpp.o: lib/PoissonRe
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  lib/PoissonRecon/MarchingCubes.h \
+  /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -416,6 +478,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/MarchingCubes.cpp.o: lib/PoissonRe
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   lib/PoissonRecon/Geometry.inl
@@ -454,6 +517,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PlyFile.cpp.o: lib/PoissonRecon/Pl
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -502,13 +566,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PlyFile.cpp.o: lib/PoissonRecon/Pl
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  lib/PoissonRecon/Ply.h \
-  lib/PoissonRecon/Geometry.h \
-  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
@@ -524,6 +582,26 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PlyFile.cpp.o: lib/PoissonRecon/Pl
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  lib/PoissonRecon/Ply.h \
+  lib/PoissonRecon/Geometry.h \
+  /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -555,6 +633,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PlyFile.cpp.o: lib/PoissonRecon/Pl
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   lib/PoissonRecon/Geometry.inl
@@ -593,6 +672,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PoissonRecon.cpp.o: lib/PoissonRec
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -641,17 +721,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PoissonRecon.cpp.o: lib/PoissonRec
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  lib/PoissonRecon/MyTime.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/sys/timeb.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeb.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
-  lib/PoissonRecon/MarchingCubes.h \
-  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
@@ -667,6 +737,30 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PoissonRecon.cpp.o: lib/PoissonRec
   /usr/include/c++/11/bits/ptr_traits.h \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  lib/PoissonRecon/MyTime.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/sys/timeb.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeb.h \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  lib/PoissonRecon/MarchingCubes.h \
+  /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -699,6 +793,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PoissonRecon.cpp.o: lib/PoissonRec
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   lib/PoissonRecon/Geometry.inl \
@@ -712,6 +807,12 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/PoissonRecon.cpp.o: lib/PoissonRec
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/pstl/execution_defs.h \
   lib/PoissonRecon/SparseMatrix.h \
   lib/PoissonRecon/Array.h \
   lib/PoissonRecon/SparseMatrix.inl \
@@ -776,6 +877,7 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/SurfaceTrimmer.cpp.o: lib/PoissonR
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -841,6 +943,40 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/SurfaceTrimmer.cpp.o: lib/PoissonR
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
   lib/PoissonRecon/CmdLineParser.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -860,34 +996,21 @@ lib/PoissonRecon/CMakeFiles/poisson_recon.dir/SurfaceTrimmer.cpp.o: lib/PoissonR
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
   lib/PoissonRecon/Hash.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
   lib/PoissonRecon/Geometry.inl \
   lib/PoissonRecon/Ply.h \
   lib/PoissonRecon/MAT.h \
@@ -908,8 +1031,6 @@ lib/PoissonRecon/MultiGridOctreeData.IsoSurface.inl:
 
 lib/PoissonRecon/MultiGridOctreeData.System.inl:
 
-lib/PoissonRecon/MultiGridOctreeData.SortedTreeNodes.inl:
-
 lib/PoissonRecon/MultiGridOctreeData.inl:
 
 lib/PoissonRecon/PointStream.inl:
@@ -922,17 +1043,17 @@ lib/PoissonRecon/BSplineData.inl:
 
 lib/PoissonRecon/MemoryUsage.h:
 
-lib/PoissonRecon/Polynomial.inl:
-
-lib/PoissonRecon/BSplineData.h:
-
-lib/PoissonRecon/Polynomial.h:
-
 lib/PoissonRecon/PPolynomial.h:
 
 lib/PoissonRecon/Array.h:
 
 lib/PoissonRecon/SparseMatrix.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/functional:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
@@ -947,8 +1068,6 @@ lib/PoissonRecon/Allocator.h:
 lib/PoissonRecon/Octree.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeb.h:
-
-lib/PoissonRecon/MyTime.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
@@ -998,6 +1117,32 @@ lib/PoissonRecon/MarchingCubes.cpp:
 
 lib/PoissonRecon/Hash.h:
 
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/range_access.h:
+
+lib/PoissonRecon/SurfaceTrimmer.cpp:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/usr/include/c++/11/initializer_list:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+lib/PoissonRecon/SparseMatrix.inl:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/exception.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
@@ -1008,14 +1153,6 @@ lib/PoissonRecon/Hash.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
 /usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/backward/binders.h:
@@ -1024,11 +1161,17 @@ lib/PoissonRecon/Hash.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/include/c++/11/bits/stl_bvector.h:
+
+lib/PoissonRecon/CmdLineParser.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/endian.h:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
@@ -1036,7 +1179,17 @@ lib/PoissonRecon/Hash.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
@@ -1049,6 +1202,8 @@ lib/PoissonRecon/Hash.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h:
 
 /usr/include/stdlib.h:
+
+/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -1065,6 +1220,10 @@ lib/PoissonRecon/Hash.h:
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+lib/PoissonRecon/MultiGridOctreeData.SortedTreeNodes.inl:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
 
 /usr/include/stdc-predef.h:
 
@@ -1084,9 +1243,17 @@ lib/PoissonRecon/PoissonRecon.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
+lib/PoissonRecon/Polynomial.inl:
+
+/usr/include/c++/11/limits:
+
 /usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/11/tr1/special_function_util.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -1100,9 +1267,9 @@ lib/PoissonRecon/CmdLineParser.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
-/usr/include/c++/11/bits/stl_vector.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -1114,12 +1281,6 @@ lib/PoissonRecon/CmdLineParser.cpp:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/11/ext/new_allocator.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -1128,9 +1289,7 @@ lib/PoissonRecon/CmdLineParser.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
-lib/PoissonRecon/CmdLineParser.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
+/usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -1139,6 +1298,10 @@ lib/PoissonRecon/CmdLineParser.h:
 /usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+lib/PoissonRecon/MyTime.h:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
 
 /usr/include/features.h:
 
@@ -1160,13 +1323,15 @@ lib/PoissonRecon/CmdLineParser.h:
 
 lib/PoissonRecon/Factor.h:
 
-/usr/include/c++/11/bits/vector.tcc:
-
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/c++/11/ext/new_allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/alloca.h:
 
@@ -1177,16 +1342,6 @@ lib/PoissonRecon/Factor.h:
 /usr/include/strings.h:
 
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/assert.h:
-
-lib/PoissonRecon/SurfaceTrimmer.cpp:
-
-/usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -1212,9 +1367,11 @@ lib/PoissonRecon/PPolynomial.inl:
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
-/usr/include/c++/11/initializer_list:
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/11/tr1/gamma.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
@@ -1226,17 +1383,21 @@ lib/PoissonRecon/PPolynomial.inl:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-lib/PoissonRecon/Geometry.cpp:
+lib/PoissonRecon/BSplineData.h:
+
+lib/PoissonRecon/Polynomial.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/11/bits/move.h:
 
-lib/PoissonRecon/Geometry.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
+lib/PoissonRecon/Geometry.cpp:
 
 /usr/include/c++/11/tuple:
 
@@ -1246,9 +1407,9 @@ lib/PoissonRecon/Geometry.h:
 
 /usr/include/c++/11/debug/assertions.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
 /usr/include/c++/11/new:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
@@ -1256,22 +1417,28 @@ lib/PoissonRecon/Geometry.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
-/usr/include/c++/11/cmath:
+/usr/include/c++/11/tr1/beta_function.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/11/bits/exception.h:
+/usr/include/c++/11/cstdlib:
 
-/usr/include/c++/11/bits/range_access.h:
+/usr/include/assert.h:
 
-lib/PoissonRecon/SparseMatrix.inl:
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
 
-/usr/include/c++/11/bits/memoryfwd.h:
+/usr/include/c++/11/tr1/ell_integral.tcc:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
-/usr/include/c++/11/ext/alloc_traits.h:
+/usr/include/c++/11/tr1/exp_integral.tcc:
 
-/usr/include/c++/11/bits/alloc_traits.h:
+/usr/include/c++/11/tr1/hypergeometric.tcc:
 
-/usr/include/c++/11/bits/functional_hash.h:
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+lib/PoissonRecon/Geometry.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:

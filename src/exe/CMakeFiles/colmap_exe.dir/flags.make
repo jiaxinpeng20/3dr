@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DCERES_EXPORT_INTERNAL_SYMBOLS -DGFLAGS_IS_A_D
 
 CXX_INCLUDES = -I/home/jiaxin/xSfM/lib -I/home/jiaxin/xSfM/src -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -isystem /usr/include/eigen3 -isystem /usr/include/opencv4
 
-CXX_FLAGS =  -Wno-maybe-uninitialized -fopenmp -Wall -std=c++14 -O3 -DNDEBUG -fPIE
+CXX_FLAGS =  -Wno-maybe-uninitialized -fopenmp -Wall -fpermissive -std=c++14 -O3 -DNDEBUG -fPIE -std=c++17
 

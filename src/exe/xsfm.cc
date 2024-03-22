@@ -15,10 +15,14 @@
 #include "base/reconstruction.h"
 #include <FreeImage.h>
 
+#include "xsfm.h"
 #include "base/UImage.h"
+#include "feature/UMatching.h"
 
 boost::mpi::environment env;
 boost::mpi::communicator world;
+
+//typedef MPI_PRINT()
 
 using namespace colmap;
 
@@ -224,20 +228,37 @@ int RunFeatureExtractor(std::vector<std::string> imageList) {
 
 int main(int argc, char** argv)
 {
-    boost::mpi::environment env(argc, argv);
+  boost::mpi::environment env(argc, argv);
 	boost::mpi::communicator world;
 	
+  std::cout<<"MPI"<<std::endl;
 	std::string imgPath(argv[1]);
 	std::vector<std::string> imageList = GetImageList(imgPath);
 	
-	for(int i = 0; i < imageList.size(); i++)
-	{
-	    XSFM::Algorithm::UImage Image;
-	    Image.ReadImageFromPath(imageList.at(i));
-        
+  DISTRIBUTE_PRINT("Reading images from file...");
+	XSFM::Algorithm::UImage image(imageList);
+	image.ReadImageFromPath();
+      
 
-	    std::cout<<"Process #"<<world.rank()<<": Reading the "<<i<<"-th image..."<<std::endl;
-	}
+  DISTRIBUTE_PRINT("Compute image features...");
+  image.ComputeImageFeatures();  
+  std::vector<Eigen::MatrixXd> descriptors = image.GetImageDescriptors();
+
+  DISTRIBUTE_PRINT("Compare image features...");
+  for(int i = 0; i < imageList.size() - 1; i++)
+  {
+    for(int j = i+1; j < imageList.size(); j++)
+    {
+      DISTRIBUTE_PRINT("Compare feature distances for every two images...");
+      Eigen::MatrixXd _d0 = descriptors.at(i);
+      Eigen::MatrixXd _d1 = descriptors.at(j);
+      XSFM::Algorithm::UMatching matching(0, &env, &world);
+      matching.MatchingFeaturesByBruteForce(_d0, _d1);
+    }
+  }
+
+     
+
 	
 	//RunFeatureExtractor(imageList);
 	
