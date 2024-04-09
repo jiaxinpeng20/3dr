@@ -222,27 +222,47 @@ namespace XSFM
 
 
 			//Unserialize image feature data *************************************************************************************
-			std::vector<Eigen::MatrixXd> deserializedAllImageFeatures(allImageCount);
-			int offset = 0;
-			for(int i = 0; i < allImageCount; i++)
+			XSFM_PRINT("[Log_Level0_Info] Deserialize feature data...");
+			XSFM_PRINT("     Transform std::vector<Eigen::MatrixXd> data to serialized data.");
+			std::vector<std::vector<Eigen::MatrixXd>> deserializedAllImageFeatures(pWorld->size());
+			for(int i = 0, _image_index = 0, _feature_index = 0; i < pWorld->size(); i++)
 			{
-				int row = featureDim;
-				int col = gatherFeatureCountList.at(i);
+				int localImageCount = gatherImageCountList.at(i);
+				deserializedAllImageFeatures.at(i).resize(localImageCount);
 
-				
-				deserializedAllImageFeatures.at(i).resize(row, col);
-				for(int j = 0; j < col; j++)
+				for(int j = 0; j < localImageCount; j++)
 				{
+					int row = featureDim;
+					int col = gatherFeatureCountList.at(_image_index++);
+				
+					deserializedAllImageFeatures.at(i).at(j).resize(row, col);
+					for(int k = 0; k < col; k++)
+					{
 
-					deserializedAllImageFeatures.at(i).col(j) = Eigen::Map<Eigen::VectorXd>(serializedLocalImageFeatures.data() + offset, row);
+						deserializedAllImageFeatures.at(i).at(j).col(k) = Eigen::Map<Eigen::VectorXd>(serializedLocalImageFeatures.data() + _feature_index, row);
+					}
+
+					_feature_index = _feature_index + row;
+				}
+			}
+			XSFM_PRINT("[Log_Level0_Info] Data deserialization finished.");
+
+
+			//Build matchings for task equilibrium
+			for(int i = 0; i < deserializedAllImageFeatures.size(); i++)
+			{
+				if(i == pWorld->rank())//Is diagonal block
+				{
+					;//Lower triangles
 				}
 
-				offset = offset + row;
+				for(int j = 0; j < deserializedAllImageFeatures.at(i); j++)
+				{
+					//Generate matching pairs
+					if()
+
+				}
 			}
-
-
-			std::cout<<deserializedAllImageFeatures.size()<<", "<<deserializedAllImageFeatures.at(0).cols()<<", "<<deserializedAllImageFeatures.at(0).rows()<<std::endl;
-			//Load equilibrium for task distribution
 
 
 		

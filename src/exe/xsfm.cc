@@ -231,12 +231,12 @@ int main(int argc, char** argv)
   boost::mpi::environment env(argc, argv);
 	boost::mpi::communicator world;
 	
-  std::cout<<"MPI"<<std::endl;
+  std::cout<<"Sparse 3D Reconstruction by NUDT."<<std::endl;
 	std::string imgPath(argv[1]);
 	std::vector<std::string> imageList = GetImageList(imgPath);
 	
   DISTRIBUTE_PRINT("Reading images from file...");
-	XSFM::Algorithm::UImage image(imageList);
+	XSFM::Algorithm::UImage image(imageList, &env, &world);
 	image.ReadImageFromPath();
       
 
@@ -245,17 +245,9 @@ int main(int argc, char** argv)
   std::vector<Eigen::MatrixXd> descriptors = image.GetImageDescriptors();
 
   DISTRIBUTE_PRINT("Compare image features...");
-  for(int i = 0; i < imageList.size() - 1; i++)
-  {
-    for(int j = i+1; j < imageList.size(); j++)
-    {
-      DISTRIBUTE_PRINT("Compare feature distances for every two images...");
-      Eigen::MatrixXd _d0 = descriptors.at(i);
-      Eigen::MatrixXd _d1 = descriptors.at(j);
-      XSFM::Algorithm::UMatching matching(0, &env, &world);
-      matching.MatchingFeaturesByBruteForce(_d0, _d1);
-    }
-  }
+  XSFM::Algorithm::UMatching matching(XSFM::Algorithm::XSFM_IMAGE_MATCHING_TYPE::IMAGE_MATCHING_BRUTEFORCE, &env, &world);
+  matching.MatchingImages(descriptors);
+
 
      
 
