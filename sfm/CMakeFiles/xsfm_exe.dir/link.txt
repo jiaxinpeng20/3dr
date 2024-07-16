@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wno-maybe-uninitialized -fopenmp -O3 -DNDEBUG -rdynamic CMakeFiles/xsfm_exe.dir/xsfm.cpp.o -o xsfm  -lyh3dr 

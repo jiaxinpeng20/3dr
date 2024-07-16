@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvlfeat.a 
+/usr/bin/ranlib libvlfeat.a

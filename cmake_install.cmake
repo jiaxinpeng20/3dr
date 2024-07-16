@@ -1,4 +1,4 @@
-# Install script for directory: /home/jiaxin/xSfM
+# Install script for directory: /home/jiaxin/yh3dr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,34 +42,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/colmap" TYPE DIRECTORY FILES "/home/jiaxin/xSfM/src/" FILES_MATCHING REGEX "/[^/]*\\.h$")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/colmap/lib" TYPE DIRECTORY FILES "/home/jiaxin/xSfM/lib/" FILES_MATCHING REGEX ".*[.]h|.*[.]hpp|.*[.]inl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/colmap" TYPE FILE FILES "/home/jiaxin/xSfM/COLMAPConfig.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/colmap" TYPE FILE FILES "/home/jiaxin/xSfM/COLMAPConfigVersion.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/colmap" TYPE DIRECTORY FILES "/home/jiaxin/xSfM/cmake" FILES_MATCHING REGEX "/Find[^/]*\\.cmake$")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE FILES "/home/jiaxin/xSfM/doc/COLMAP.desktop")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jiaxin/xSfM/lib/cmake_install.cmake")
-  include("/home/jiaxin/xSfM/src/cmake_install.cmake")
+  include("/home/jiaxin/yh3dr/libmvg/cmake_install.cmake")
+  include("/home/jiaxin/yh3dr/sfm/cmake_install.cmake")
+  include("/home/jiaxin/yh3dr/mvs/cmake_install.cmake")
+  include("/home/jiaxin/yh3dr/tools/cmake_install.cmake")
+  include("/home/jiaxin/yh3dr/model/cmake_install.cmake")
+  include("/home/jiaxin/yh3dr/thirdParty/cmake_install.cmake")
 
 endif()
 
@@ -81,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jiaxin/xSfM/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jiaxin/yh3dr/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

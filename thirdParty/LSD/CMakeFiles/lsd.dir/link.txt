@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblsd.a 
+/usr/bin/ranlib liblsd.a

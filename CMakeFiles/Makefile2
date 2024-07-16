@@ -54,555 +54,457 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jiaxin/xSfM
+CMAKE_SOURCE_DIR = /home/jiaxin/yh3dr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jiaxin/xSfM
+CMAKE_BINARY_DIR = /home/jiaxin/yh3dr
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: lib/all
-all: src/all
+all: CMakeFiles/xsfm_exe.dir/all
+all: libmvg/all
+all: sfm/all
+all: mvs/all
+all: tools/all
+all: model/all
+all: thirdParty/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: lib/preinstall
-preinstall: src/preinstall
+preinstall: libmvg/preinstall
+preinstall: sfm/preinstall
+preinstall: mvs/preinstall
+preinstall: tools/preinstall
+preinstall: model/preinstall
+preinstall: thirdParty/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/colmap_sources.dir/clean
-clean: CMakeFiles/uninstall.dir/clean
-clean: lib/clean
-clean: src/clean
+clean: CMakeFiles/xsfm_exe.dir/clean
+clean: libmvg/clean
+clean: sfm/clean
+clean: mvs/clean
+clean: tools/clean
+clean: model/clean
+clean: thirdParty/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory lib
+# Directory level rules for directory libmvg
 
 # Recursive "all" directory target.
-lib/all: lib/LSD/all
-lib/all: lib/PBA/all
-lib/all: lib/PoissonRecon/all
-lib/all: lib/VLFeat/all
-.PHONY : lib/all
+libmvg/all: libmvg/CMakeFiles/mvg.dir/all
+.PHONY : libmvg/all
 
 # Recursive "preinstall" directory target.
-lib/preinstall: lib/LSD/preinstall
-lib/preinstall: lib/PBA/preinstall
-lib/preinstall: lib/PoissonRecon/preinstall
-lib/preinstall: lib/VLFeat/preinstall
-.PHONY : lib/preinstall
+libmvg/preinstall:
+.PHONY : libmvg/preinstall
 
 # Recursive "clean" directory target.
-lib/clean: lib/LSD/clean
-lib/clean: lib/PBA/clean
-lib/clean: lib/PoissonRecon/clean
-lib/clean: lib/VLFeat/clean
-.PHONY : lib/clean
+libmvg/clean: libmvg/CMakeFiles/mvg.dir/clean
+.PHONY : libmvg/clean
 
 #=============================================================================
-# Directory level rules for directory lib/LSD
+# Directory level rules for directory model
 
 # Recursive "all" directory target.
-lib/LSD/all: lib/LSD/CMakeFiles/lsd.dir/all
-.PHONY : lib/LSD/all
+model/all:
+.PHONY : model/all
 
 # Recursive "preinstall" directory target.
-lib/LSD/preinstall:
-.PHONY : lib/LSD/preinstall
+model/preinstall:
+.PHONY : model/preinstall
 
 # Recursive "clean" directory target.
-lib/LSD/clean: lib/LSD/CMakeFiles/lsd.dir/clean
-.PHONY : lib/LSD/clean
+model/clean:
+.PHONY : model/clean
 
 #=============================================================================
-# Directory level rules for directory lib/PBA
+# Directory level rules for directory mvs
 
 # Recursive "all" directory target.
-lib/PBA/all: lib/PBA/CMakeFiles/pba.dir/all
-.PHONY : lib/PBA/all
+mvs/all:
+.PHONY : mvs/all
 
 # Recursive "preinstall" directory target.
-lib/PBA/preinstall:
-.PHONY : lib/PBA/preinstall
+mvs/preinstall:
+.PHONY : mvs/preinstall
 
 # Recursive "clean" directory target.
-lib/PBA/clean: lib/PBA/CMakeFiles/pba.dir/clean
-.PHONY : lib/PBA/clean
+mvs/clean:
+.PHONY : mvs/clean
 
 #=============================================================================
-# Directory level rules for directory lib/PoissonRecon
+# Directory level rules for directory sfm
 
 # Recursive "all" directory target.
-lib/PoissonRecon/all: lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
-.PHONY : lib/PoissonRecon/all
+sfm/all: sfm/feature/all
+sfm/all: sfm/communication/all
+sfm/all: sfm/mvg/all
+.PHONY : sfm/all
 
 # Recursive "preinstall" directory target.
-lib/PoissonRecon/preinstall:
-.PHONY : lib/PoissonRecon/preinstall
+sfm/preinstall: sfm/feature/preinstall
+sfm/preinstall: sfm/communication/preinstall
+sfm/preinstall: sfm/mvg/preinstall
+.PHONY : sfm/preinstall
 
 # Recursive "clean" directory target.
-lib/PoissonRecon/clean: lib/PoissonRecon/CMakeFiles/poisson_recon.dir/clean
-.PHONY : lib/PoissonRecon/clean
+sfm/clean: sfm/feature/clean
+sfm/clean: sfm/communication/clean
+sfm/clean: sfm/mvg/clean
+.PHONY : sfm/clean
 
 #=============================================================================
-# Directory level rules for directory lib/VLFeat
+# Directory level rules for directory sfm/communication
 
 # Recursive "all" directory target.
-lib/VLFeat/all: lib/VLFeat/CMakeFiles/vlfeat.dir/all
-.PHONY : lib/VLFeat/all
+sfm/communication/all:
+.PHONY : sfm/communication/all
 
 # Recursive "preinstall" directory target.
-lib/VLFeat/preinstall:
-.PHONY : lib/VLFeat/preinstall
+sfm/communication/preinstall:
+.PHONY : sfm/communication/preinstall
 
 # Recursive "clean" directory target.
-lib/VLFeat/clean: lib/VLFeat/CMakeFiles/vlfeat.dir/clean
-.PHONY : lib/VLFeat/clean
+sfm/communication/clean:
+.PHONY : sfm/communication/clean
 
 #=============================================================================
-# Directory level rules for directory src
+# Directory level rules for directory sfm/feature
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/colmap.dir/all
-src/all: src/base/all
-src/all: src/feature/all
-src/all: src/controllers/all
-src/all: src/estimators/all
-src/all: src/exe/all
-src/all: src/mvs/all
-src/all: src/optim/all
-src/all: src/retrieval/all
-src/all: src/sfm/all
-src/all: src/util/all
-.PHONY : src/all
+sfm/feature/all:
+.PHONY : sfm/feature/all
 
 # Recursive "preinstall" directory target.
-src/preinstall: src/base/preinstall
-src/preinstall: src/feature/preinstall
-src/preinstall: src/controllers/preinstall
-src/preinstall: src/estimators/preinstall
-src/preinstall: src/exe/preinstall
-src/preinstall: src/mvs/preinstall
-src/preinstall: src/optim/preinstall
-src/preinstall: src/retrieval/preinstall
-src/preinstall: src/sfm/preinstall
-src/preinstall: src/util/preinstall
-.PHONY : src/preinstall
+sfm/feature/preinstall:
+.PHONY : sfm/feature/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/colmap.dir/clean
-src/clean: src/base/clean
-src/clean: src/feature/clean
-src/clean: src/controllers/clean
-src/clean: src/estimators/clean
-src/clean: src/exe/clean
-src/clean: src/mvs/clean
-src/clean: src/optim/clean
-src/clean: src/retrieval/clean
-src/clean: src/sfm/clean
-src/clean: src/util/clean
-.PHONY : src/clean
+sfm/feature/clean:
+.PHONY : sfm/feature/clean
 
 #=============================================================================
-# Directory level rules for directory src/base
+# Directory level rules for directory sfm/mvg
 
 # Recursive "all" directory target.
-src/base/all:
-.PHONY : src/base/all
+sfm/mvg/all:
+.PHONY : sfm/mvg/all
 
 # Recursive "preinstall" directory target.
-src/base/preinstall:
-.PHONY : src/base/preinstall
+sfm/mvg/preinstall:
+.PHONY : sfm/mvg/preinstall
 
 # Recursive "clean" directory target.
-src/base/clean:
-.PHONY : src/base/clean
+sfm/mvg/clean:
+.PHONY : sfm/mvg/clean
 
 #=============================================================================
-# Directory level rules for directory src/controllers
+# Directory level rules for directory thirdParty
 
 # Recursive "all" directory target.
-src/controllers/all:
-.PHONY : src/controllers/all
+thirdParty/all: thirdParty/LSD/all
+thirdParty/all: thirdParty/PBA/all
+thirdParty/all: thirdParty/PoissonRecon/all
+thirdParty/all: thirdParty/VLFeat/all
+thirdParty/all: thirdParty/TinyEXIF-master/all
+.PHONY : thirdParty/all
 
 # Recursive "preinstall" directory target.
-src/controllers/preinstall:
-.PHONY : src/controllers/preinstall
+thirdParty/preinstall: thirdParty/LSD/preinstall
+thirdParty/preinstall: thirdParty/PBA/preinstall
+thirdParty/preinstall: thirdParty/PoissonRecon/preinstall
+thirdParty/preinstall: thirdParty/VLFeat/preinstall
+thirdParty/preinstall: thirdParty/TinyEXIF-master/preinstall
+.PHONY : thirdParty/preinstall
 
 # Recursive "clean" directory target.
-src/controllers/clean:
-.PHONY : src/controllers/clean
+thirdParty/clean: thirdParty/LSD/clean
+thirdParty/clean: thirdParty/PBA/clean
+thirdParty/clean: thirdParty/PoissonRecon/clean
+thirdParty/clean: thirdParty/VLFeat/clean
+thirdParty/clean: thirdParty/TinyEXIF-master/clean
+.PHONY : thirdParty/clean
 
 #=============================================================================
-# Directory level rules for directory src/estimators
+# Directory level rules for directory thirdParty/LSD
 
 # Recursive "all" directory target.
-src/estimators/all:
-.PHONY : src/estimators/all
+thirdParty/LSD/all: thirdParty/LSD/CMakeFiles/lsd.dir/all
+.PHONY : thirdParty/LSD/all
 
 # Recursive "preinstall" directory target.
-src/estimators/preinstall:
-.PHONY : src/estimators/preinstall
+thirdParty/LSD/preinstall:
+.PHONY : thirdParty/LSD/preinstall
 
 # Recursive "clean" directory target.
-src/estimators/clean:
-.PHONY : src/estimators/clean
+thirdParty/LSD/clean: thirdParty/LSD/CMakeFiles/lsd.dir/clean
+.PHONY : thirdParty/LSD/clean
 
 #=============================================================================
-# Directory level rules for directory src/exe
+# Directory level rules for directory thirdParty/PBA
 
 # Recursive "all" directory target.
-src/exe/all: src/exe/CMakeFiles/colmap_exe.dir/all
-src/exe/all: src/exe/CMakeFiles/xsfm_exe.dir/all
-.PHONY : src/exe/all
+thirdParty/PBA/all: thirdParty/PBA/CMakeFiles/pba.dir/all
+.PHONY : thirdParty/PBA/all
 
 # Recursive "preinstall" directory target.
-src/exe/preinstall:
-.PHONY : src/exe/preinstall
+thirdParty/PBA/preinstall:
+.PHONY : thirdParty/PBA/preinstall
 
 # Recursive "clean" directory target.
-src/exe/clean: src/exe/CMakeFiles/colmap_exe.dir/clean
-src/exe/clean: src/exe/CMakeFiles/xsfm_exe.dir/clean
-.PHONY : src/exe/clean
+thirdParty/PBA/clean: thirdParty/PBA/CMakeFiles/pba.dir/clean
+.PHONY : thirdParty/PBA/clean
 
 #=============================================================================
-# Directory level rules for directory src/feature
+# Directory level rules for directory thirdParty/PoissonRecon
 
 # Recursive "all" directory target.
-src/feature/all:
-.PHONY : src/feature/all
+thirdParty/PoissonRecon/all: thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/all
+.PHONY : thirdParty/PoissonRecon/all
 
 # Recursive "preinstall" directory target.
-src/feature/preinstall:
-.PHONY : src/feature/preinstall
+thirdParty/PoissonRecon/preinstall:
+.PHONY : thirdParty/PoissonRecon/preinstall
 
 # Recursive "clean" directory target.
-src/feature/clean:
-.PHONY : src/feature/clean
+thirdParty/PoissonRecon/clean: thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/clean
+.PHONY : thirdParty/PoissonRecon/clean
 
 #=============================================================================
-# Directory level rules for directory src/mvs
+# Directory level rules for directory thirdParty/TinyEXIF-master
 
 # Recursive "all" directory target.
-src/mvs/all:
-.PHONY : src/mvs/all
+thirdParty/TinyEXIF-master/all: thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/all
+.PHONY : thirdParty/TinyEXIF-master/all
 
 # Recursive "preinstall" directory target.
-src/mvs/preinstall:
-.PHONY : src/mvs/preinstall
+thirdParty/TinyEXIF-master/preinstall:
+.PHONY : thirdParty/TinyEXIF-master/preinstall
 
 # Recursive "clean" directory target.
-src/mvs/clean:
-.PHONY : src/mvs/clean
+thirdParty/TinyEXIF-master/clean: thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/clean
+.PHONY : thirdParty/TinyEXIF-master/clean
 
 #=============================================================================
-# Directory level rules for directory src/optim
+# Directory level rules for directory thirdParty/VLFeat
 
 # Recursive "all" directory target.
-src/optim/all:
-.PHONY : src/optim/all
+thirdParty/VLFeat/all: thirdParty/VLFeat/CMakeFiles/vlfeat.dir/all
+.PHONY : thirdParty/VLFeat/all
 
 # Recursive "preinstall" directory target.
-src/optim/preinstall:
-.PHONY : src/optim/preinstall
+thirdParty/VLFeat/preinstall:
+.PHONY : thirdParty/VLFeat/preinstall
 
 # Recursive "clean" directory target.
-src/optim/clean:
-.PHONY : src/optim/clean
+thirdParty/VLFeat/clean: thirdParty/VLFeat/CMakeFiles/vlfeat.dir/clean
+.PHONY : thirdParty/VLFeat/clean
 
 #=============================================================================
-# Directory level rules for directory src/retrieval
+# Directory level rules for directory tools
 
 # Recursive "all" directory target.
-src/retrieval/all:
-.PHONY : src/retrieval/all
+tools/all:
+.PHONY : tools/all
 
 # Recursive "preinstall" directory target.
-src/retrieval/preinstall:
-.PHONY : src/retrieval/preinstall
+tools/preinstall:
+.PHONY : tools/preinstall
 
 # Recursive "clean" directory target.
-src/retrieval/clean:
-.PHONY : src/retrieval/clean
+tools/clean:
+.PHONY : tools/clean
 
 #=============================================================================
-# Directory level rules for directory src/sfm
-
-# Recursive "all" directory target.
-src/sfm/all:
-.PHONY : src/sfm/all
-
-# Recursive "preinstall" directory target.
-src/sfm/preinstall:
-.PHONY : src/sfm/preinstall
-
-# Recursive "clean" directory target.
-src/sfm/clean:
-.PHONY : src/sfm/clean
-
-#=============================================================================
-# Directory level rules for directory src/util
-
-# Recursive "all" directory target.
-src/util/all:
-.PHONY : src/util/all
-
-# Recursive "preinstall" directory target.
-src/util/preinstall:
-.PHONY : src/util/preinstall
-
-# Recursive "clean" directory target.
-src/util/clean:
-.PHONY : src/util/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/colmap_sources.dir
+# Target rules for target CMakeFiles/xsfm_exe.dir
 
 # All Build rule for target.
-CMakeFiles/colmap_sources.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colmap_sources.dir/build.make CMakeFiles/colmap_sources.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colmap_sources.dir/build.make CMakeFiles/colmap_sources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81 "Built target colmap_sources"
-.PHONY : CMakeFiles/colmap_sources.dir/all
+CMakeFiles/xsfm_exe.dir/all: libmvg/CMakeFiles/mvg.dir/all
+CMakeFiles/xsfm_exe.dir/all: thirdParty/LSD/CMakeFiles/lsd.dir/all
+CMakeFiles/xsfm_exe.dir/all: thirdParty/PBA/CMakeFiles/pba.dir/all
+CMakeFiles/xsfm_exe.dir/all: thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/all
+CMakeFiles/xsfm_exe.dir/all: thirdParty/VLFeat/CMakeFiles/vlfeat.dir/all
+CMakeFiles/xsfm_exe.dir/all: thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xsfm_exe.dir/build.make CMakeFiles/xsfm_exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xsfm_exe.dir/build.make CMakeFiles/xsfm_exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/yh3dr/CMakeFiles --progress-num=21,22,23,24,25 "Built target xsfm_exe"
+.PHONY : CMakeFiles/xsfm_exe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/colmap_sources.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 49
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/colmap_sources.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : CMakeFiles/colmap_sources.dir/rule
+CMakeFiles/xsfm_exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 25
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/xsfm_exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 0
+.PHONY : CMakeFiles/xsfm_exe.dir/rule
 
 # Convenience name for target.
-colmap_sources: CMakeFiles/colmap_sources.dir/rule
-.PHONY : colmap_sources
-
-# clean rule for target.
-CMakeFiles/colmap_sources.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colmap_sources.dir/build.make CMakeFiles/colmap_sources.dir/clean
-.PHONY : CMakeFiles/colmap_sources.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/uninstall.dir
-
-# All Build rule for target.
-CMakeFiles/uninstall.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num= "Built target uninstall"
-.PHONY : CMakeFiles/uninstall.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : CMakeFiles/uninstall.dir/rule
-
-# Convenience name for target.
-uninstall: CMakeFiles/uninstall.dir/rule
-.PHONY : uninstall
-
-# clean rule for target.
-CMakeFiles/uninstall.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean
-.PHONY : CMakeFiles/uninstall.dir/clean
-
-#=============================================================================
-# Target rules for target lib/LSD/CMakeFiles/lsd.dir
-
-# All Build rule for target.
-lib/LSD/CMakeFiles/lsd.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/LSD/CMakeFiles/lsd.dir/build.make lib/LSD/CMakeFiles/lsd.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/LSD/CMakeFiles/lsd.dir/build.make lib/LSD/CMakeFiles/lsd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num= "Built target lsd"
-.PHONY : lib/LSD/CMakeFiles/lsd.dir/all
-
-# Build rule for subdir invocation for target.
-lib/LSD/CMakeFiles/lsd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/LSD/CMakeFiles/lsd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : lib/LSD/CMakeFiles/lsd.dir/rule
-
-# Convenience name for target.
-lsd: lib/LSD/CMakeFiles/lsd.dir/rule
-.PHONY : lsd
-
-# clean rule for target.
-lib/LSD/CMakeFiles/lsd.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/LSD/CMakeFiles/lsd.dir/build.make lib/LSD/CMakeFiles/lsd.dir/clean
-.PHONY : lib/LSD/CMakeFiles/lsd.dir/clean
-
-#=============================================================================
-# Target rules for target lib/PBA/CMakeFiles/pba.dir
-
-# All Build rule for target.
-lib/PBA/CMakeFiles/pba.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/PBA/CMakeFiles/pba.dir/build.make lib/PBA/CMakeFiles/pba.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/PBA/CMakeFiles/pba.dir/build.make lib/PBA/CMakeFiles/pba.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=82,83 "Built target pba"
-.PHONY : lib/PBA/CMakeFiles/pba.dir/all
-
-# Build rule for subdir invocation for target.
-lib/PBA/CMakeFiles/pba.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/PBA/CMakeFiles/pba.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : lib/PBA/CMakeFiles/pba.dir/rule
-
-# Convenience name for target.
-pba: lib/PBA/CMakeFiles/pba.dir/rule
-.PHONY : pba
-
-# clean rule for target.
-lib/PBA/CMakeFiles/pba.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/PBA/CMakeFiles/pba.dir/build.make lib/PBA/CMakeFiles/pba.dir/clean
-.PHONY : lib/PBA/CMakeFiles/pba.dir/clean
-
-#=============================================================================
-# Target rules for target lib/PoissonRecon/CMakeFiles/poisson_recon.dir
-
-# All Build rule for target.
-lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make lib/PoissonRecon/CMakeFiles/poisson_recon.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make lib/PoissonRecon/CMakeFiles/poisson_recon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=84,85,86 "Built target poisson_recon"
-.PHONY : lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
-
-# Build rule for subdir invocation for target.
-lib/PoissonRecon/CMakeFiles/poisson_recon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : lib/PoissonRecon/CMakeFiles/poisson_recon.dir/rule
-
-# Convenience name for target.
-poisson_recon: lib/PoissonRecon/CMakeFiles/poisson_recon.dir/rule
-.PHONY : poisson_recon
-
-# clean rule for target.
-lib/PoissonRecon/CMakeFiles/poisson_recon.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make lib/PoissonRecon/CMakeFiles/poisson_recon.dir/clean
-.PHONY : lib/PoissonRecon/CMakeFiles/poisson_recon.dir/clean
-
-#=============================================================================
-# Target rules for target lib/VLFeat/CMakeFiles/vlfeat.dir
-
-# All Build rule for target.
-lib/VLFeat/CMakeFiles/vlfeat.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/VLFeat/CMakeFiles/vlfeat.dir/build.make lib/VLFeat/CMakeFiles/vlfeat.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/VLFeat/CMakeFiles/vlfeat.dir/build.make lib/VLFeat/CMakeFiles/vlfeat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=87,88,89,90,91,92,93,94,95,96,97 "Built target vlfeat"
-.PHONY : lib/VLFeat/CMakeFiles/vlfeat.dir/all
-
-# Build rule for subdir invocation for target.
-lib/VLFeat/CMakeFiles/vlfeat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/VLFeat/CMakeFiles/vlfeat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : lib/VLFeat/CMakeFiles/vlfeat.dir/rule
-
-# Convenience name for target.
-vlfeat: lib/VLFeat/CMakeFiles/vlfeat.dir/rule
-.PHONY : vlfeat
-
-# clean rule for target.
-lib/VLFeat/CMakeFiles/vlfeat.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/VLFeat/CMakeFiles/vlfeat.dir/build.make lib/VLFeat/CMakeFiles/vlfeat.dir/clean
-.PHONY : lib/VLFeat/CMakeFiles/vlfeat.dir/clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/colmap.dir
-
-# All Build rule for target.
-src/CMakeFiles/colmap.dir/all: lib/LSD/CMakeFiles/lsd.dir/all
-src/CMakeFiles/colmap.dir/all: lib/PBA/CMakeFiles/pba.dir/all
-src/CMakeFiles/colmap.dir/all: lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
-src/CMakeFiles/colmap.dir/all: lib/VLFeat/CMakeFiles/vlfeat.dir/all
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/colmap.dir/build.make src/CMakeFiles/colmap.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/colmap.dir/build.make src/CMakeFiles/colmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target colmap"
-.PHONY : src/CMakeFiles/colmap.dir/all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/colmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 45
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/colmap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : src/CMakeFiles/colmap.dir/rule
-
-# Convenience name for target.
-colmap: src/CMakeFiles/colmap.dir/rule
-.PHONY : colmap
-
-# clean rule for target.
-src/CMakeFiles/colmap.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/colmap.dir/build.make src/CMakeFiles/colmap.dir/clean
-.PHONY : src/CMakeFiles/colmap.dir/clean
-
-#=============================================================================
-# Target rules for target src/exe/CMakeFiles/colmap_exe.dir
-
-# All Build rule for target.
-src/exe/CMakeFiles/colmap_exe.dir/all: lib/LSD/CMakeFiles/lsd.dir/all
-src/exe/CMakeFiles/colmap_exe.dir/all: lib/PBA/CMakeFiles/pba.dir/all
-src/exe/CMakeFiles/colmap_exe.dir/all: lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
-src/exe/CMakeFiles/colmap_exe.dir/all: lib/VLFeat/CMakeFiles/vlfeat.dir/all
-src/exe/CMakeFiles/colmap_exe.dir/all: src/CMakeFiles/colmap.dir/all
-	$(MAKE) $(MAKESILENT) -f src/exe/CMakeFiles/colmap_exe.dir/build.make src/exe/CMakeFiles/colmap_exe.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/exe/CMakeFiles/colmap_exe.dir/build.make src/exe/CMakeFiles/colmap_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=30,31,32 "Built target colmap_exe"
-.PHONY : src/exe/CMakeFiles/colmap_exe.dir/all
-
-# Build rule for subdir invocation for target.
-src/exe/CMakeFiles/colmap_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 48
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/colmap_exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : src/exe/CMakeFiles/colmap_exe.dir/rule
-
-# Convenience name for target.
-colmap_exe: src/exe/CMakeFiles/colmap_exe.dir/rule
-.PHONY : colmap_exe
-
-# clean rule for target.
-src/exe/CMakeFiles/colmap_exe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/exe/CMakeFiles/colmap_exe.dir/build.make src/exe/CMakeFiles/colmap_exe.dir/clean
-.PHONY : src/exe/CMakeFiles/colmap_exe.dir/clean
-
-#=============================================================================
-# Target rules for target src/exe/CMakeFiles/xsfm_exe.dir
-
-# All Build rule for target.
-src/exe/CMakeFiles/xsfm_exe.dir/all: lib/LSD/CMakeFiles/lsd.dir/all
-src/exe/CMakeFiles/xsfm_exe.dir/all: lib/PBA/CMakeFiles/pba.dir/all
-src/exe/CMakeFiles/xsfm_exe.dir/all: lib/PoissonRecon/CMakeFiles/poisson_recon.dir/all
-src/exe/CMakeFiles/xsfm_exe.dir/all: lib/VLFeat/CMakeFiles/vlfeat.dir/all
-src/exe/CMakeFiles/xsfm_exe.dir/all: src/CMakeFiles/colmap.dir/all
-	$(MAKE) $(MAKESILENT) -f src/exe/CMakeFiles/xsfm_exe.dir/build.make src/exe/CMakeFiles/xsfm_exe.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/exe/CMakeFiles/xsfm_exe.dir/build.make src/exe/CMakeFiles/xsfm_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/xSfM/CMakeFiles --progress-num=98,99,100 "Built target xsfm_exe"
-.PHONY : src/exe/CMakeFiles/xsfm_exe.dir/all
-
-# Build rule for subdir invocation for target.
-src/exe/CMakeFiles/xsfm_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 48
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/exe/CMakeFiles/xsfm_exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/xSfM/CMakeFiles 0
-.PHONY : src/exe/CMakeFiles/xsfm_exe.dir/rule
-
-# Convenience name for target.
-xsfm_exe: src/exe/CMakeFiles/xsfm_exe.dir/rule
+xsfm_exe: CMakeFiles/xsfm_exe.dir/rule
 .PHONY : xsfm_exe
 
 # clean rule for target.
-src/exe/CMakeFiles/xsfm_exe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/exe/CMakeFiles/xsfm_exe.dir/build.make src/exe/CMakeFiles/xsfm_exe.dir/clean
-.PHONY : src/exe/CMakeFiles/xsfm_exe.dir/clean
+CMakeFiles/xsfm_exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xsfm_exe.dir/build.make CMakeFiles/xsfm_exe.dir/clean
+.PHONY : CMakeFiles/xsfm_exe.dir/clean
+
+#=============================================================================
+# Target rules for target libmvg/CMakeFiles/mvg.dir
+
+# All Build rule for target.
+libmvg/CMakeFiles/mvg.dir/all:
+	$(MAKE) $(MAKESILENT) -f libmvg/CMakeFiles/mvg.dir/build.make libmvg/CMakeFiles/mvg.dir/depend
+	$(MAKE) $(MAKESILENT) -f libmvg/CMakeFiles/mvg.dir/build.make libmvg/CMakeFiles/mvg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/yh3dr/CMakeFiles --progress-num=4,5,6,7 "Built target mvg"
+.PHONY : libmvg/CMakeFiles/mvg.dir/all
+
+# Build rule for subdir invocation for target.
+libmvg/CMakeFiles/mvg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libmvg/CMakeFiles/mvg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 0
+.PHONY : libmvg/CMakeFiles/mvg.dir/rule
+
+# Convenience name for target.
+mvg: libmvg/CMakeFiles/mvg.dir/rule
+.PHONY : mvg
+
+# clean rule for target.
+libmvg/CMakeFiles/mvg.dir/clean:
+	$(MAKE) $(MAKESILENT) -f libmvg/CMakeFiles/mvg.dir/build.make libmvg/CMakeFiles/mvg.dir/clean
+.PHONY : libmvg/CMakeFiles/mvg.dir/clean
+
+#=============================================================================
+# Target rules for target thirdParty/LSD/CMakeFiles/lsd.dir
+
+# All Build rule for target.
+thirdParty/LSD/CMakeFiles/lsd.dir/all:
+	$(MAKE) $(MAKESILENT) -f thirdParty/LSD/CMakeFiles/lsd.dir/build.make thirdParty/LSD/CMakeFiles/lsd.dir/depend
+	$(MAKE) $(MAKESILENT) -f thirdParty/LSD/CMakeFiles/lsd.dir/build.make thirdParty/LSD/CMakeFiles/lsd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/yh3dr/CMakeFiles --progress-num=3 "Built target lsd"
+.PHONY : thirdParty/LSD/CMakeFiles/lsd.dir/all
+
+# Build rule for subdir invocation for target.
+thirdParty/LSD/CMakeFiles/lsd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdParty/LSD/CMakeFiles/lsd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 0
+.PHONY : thirdParty/LSD/CMakeFiles/lsd.dir/rule
+
+# Convenience name for target.
+lsd: thirdParty/LSD/CMakeFiles/lsd.dir/rule
+.PHONY : lsd
+
+# clean rule for target.
+thirdParty/LSD/CMakeFiles/lsd.dir/clean:
+	$(MAKE) $(MAKESILENT) -f thirdParty/LSD/CMakeFiles/lsd.dir/build.make thirdParty/LSD/CMakeFiles/lsd.dir/clean
+.PHONY : thirdParty/LSD/CMakeFiles/lsd.dir/clean
+
+#=============================================================================
+# Target rules for target thirdParty/PBA/CMakeFiles/pba.dir
+
+# All Build rule for target.
+thirdParty/PBA/CMakeFiles/pba.dir/all:
+	$(MAKE) $(MAKESILENT) -f thirdParty/PBA/CMakeFiles/pba.dir/build.make thirdParty/PBA/CMakeFiles/pba.dir/depend
+	$(MAKE) $(MAKESILENT) -f thirdParty/PBA/CMakeFiles/pba.dir/build.make thirdParty/PBA/CMakeFiles/pba.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/yh3dr/CMakeFiles --progress-num=8,9,10,11 "Built target pba"
+.PHONY : thirdParty/PBA/CMakeFiles/pba.dir/all
+
+# Build rule for subdir invocation for target.
+thirdParty/PBA/CMakeFiles/pba.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdParty/PBA/CMakeFiles/pba.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 0
+.PHONY : thirdParty/PBA/CMakeFiles/pba.dir/rule
+
+# Convenience name for target.
+pba: thirdParty/PBA/CMakeFiles/pba.dir/rule
+.PHONY : pba
+
+# clean rule for target.
+thirdParty/PBA/CMakeFiles/pba.dir/clean:
+	$(MAKE) $(MAKESILENT) -f thirdParty/PBA/CMakeFiles/pba.dir/build.make thirdParty/PBA/CMakeFiles/pba.dir/clean
+.PHONY : thirdParty/PBA/CMakeFiles/pba.dir/clean
+
+#=============================================================================
+# Target rules for target thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir
+
+# All Build rule for target.
+thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/all:
+	$(MAKE) $(MAKESILENT) -f thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/depend
+	$(MAKE) $(MAKESILENT) -f thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/yh3dr/CMakeFiles --progress-num=12,13,14,15,16,17,18,19 "Built target poisson_recon"
+.PHONY : thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/all
+
+# Build rule for subdir invocation for target.
+thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 0
+.PHONY : thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/rule
+
+# Convenience name for target.
+poisson_recon: thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/rule
+.PHONY : poisson_recon
+
+# clean rule for target.
+thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/clean:
+	$(MAKE) $(MAKESILENT) -f thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/build.make thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/clean
+.PHONY : thirdParty/PoissonRecon/CMakeFiles/poisson_recon.dir/clean
+
+#=============================================================================
+# Target rules for target thirdParty/VLFeat/CMakeFiles/vlfeat.dir
+
+# All Build rule for target.
+thirdParty/VLFeat/CMakeFiles/vlfeat.dir/all:
+	$(MAKE) $(MAKESILENT) -f thirdParty/VLFeat/CMakeFiles/vlfeat.dir/build.make thirdParty/VLFeat/CMakeFiles/vlfeat.dir/depend
+	$(MAKE) $(MAKESILENT) -f thirdParty/VLFeat/CMakeFiles/vlfeat.dir/build.make thirdParty/VLFeat/CMakeFiles/vlfeat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/yh3dr/CMakeFiles --progress-num=20 "Built target vlfeat"
+.PHONY : thirdParty/VLFeat/CMakeFiles/vlfeat.dir/all
+
+# Build rule for subdir invocation for target.
+thirdParty/VLFeat/CMakeFiles/vlfeat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdParty/VLFeat/CMakeFiles/vlfeat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 0
+.PHONY : thirdParty/VLFeat/CMakeFiles/vlfeat.dir/rule
+
+# Convenience name for target.
+vlfeat: thirdParty/VLFeat/CMakeFiles/vlfeat.dir/rule
+.PHONY : vlfeat
+
+# clean rule for target.
+thirdParty/VLFeat/CMakeFiles/vlfeat.dir/clean:
+	$(MAKE) $(MAKESILENT) -f thirdParty/VLFeat/CMakeFiles/vlfeat.dir/build.make thirdParty/VLFeat/CMakeFiles/vlfeat.dir/clean
+.PHONY : thirdParty/VLFeat/CMakeFiles/vlfeat.dir/clean
+
+#=============================================================================
+# Target rules for target thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir
+
+# All Build rule for target.
+thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/all:
+	$(MAKE) $(MAKESILENT) -f thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/build.make thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/depend
+	$(MAKE) $(MAKESILENT) -f thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/build.make thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaxin/yh3dr/CMakeFiles --progress-num=1,2 "Built target TinyEXIF"
+.PHONY : thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/all
+
+# Build rule for subdir invocation for target.
+thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaxin/yh3dr/CMakeFiles 0
+.PHONY : thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/rule
+
+# Convenience name for target.
+TinyEXIF: thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/rule
+.PHONY : TinyEXIF
+
+# clean rule for target.
+thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/clean:
+	$(MAKE) $(MAKESILENT) -f thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/build.make thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/clean
+.PHONY : thirdParty/TinyEXIF-master/CMakeFiles/TinyEXIF.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

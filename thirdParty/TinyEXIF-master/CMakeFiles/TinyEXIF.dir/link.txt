@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTinyEXIF.a CMakeFiles/TinyEXIF.dir/TinyEXIF.cpp.o
+/usr/bin/ranlib libTinyEXIF.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib3dr.a CMakeFiles/3dr.dir/two_view_geometry.cpp.o
+/usr/bin/ranlib lib3dr.a

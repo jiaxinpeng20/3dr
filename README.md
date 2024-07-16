@@ -1,16 +1,16 @@
-xSfM
+YH-3DR
 ======
 
 About
 -----
 
-xSfM is a distributed Structure-from-Motion pipeline for large-scale sparse 3D reconstruction. 
+YH-3DR is a distributed Structure-from-Motion pipeline for large-scale sparse 3D reconstruction. 
 It offers a wide range of features for reconstruction of ordered and unordered image collections.
 The software is licensed under the new BSD license. 
 
-The latest source code is available at https://github.com/pengjiaxin20/3dr. xSfM
+The latest source code is available at https://github.com/pengjiaxin20/yh3dr. YH-3DR
 builds on top of existing works and when using specific algorithms within
-xSfM, please also cite the original authors, as specified in the source code.
+YH-3DR, please also cite the original authors, as specified in the source code.
 
 
 
@@ -47,10 +47,10 @@ should be submitted in the form of new issues and/or pull requests on GitHub.
 License
 -------
 
-xSfM is licensed under the new BSD license. Note that this text
-refers only to the license for xSfM itself, independent of its dependencies,
-which are separately licensed. Building xSfM with these dependencies may
-affect the resulting xSfM license.
+YH-3DR is licensed under the new BSD license. Note that this text
+refers only to the license for YH-3DR itself, independent of its dependencies,
+which are separately licensed. Building YH-3DR with these dependencies may
+affect the resulting YH-3DR license.
 
     Copyright (c) 2024, National University of Defense Technology.
     All rights reserved.

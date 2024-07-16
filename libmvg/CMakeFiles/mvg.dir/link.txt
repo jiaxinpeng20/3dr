@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmvg.a CMakeFiles/mvg.dir/two_view_geometry.cpp.o CMakeFiles/mvg.dir/fundamental_matrix.cpp.o CMakeFiles/mvg.dir/polynomial.cpp.o
+/usr/bin/ranlib libmvg.a
